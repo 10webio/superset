@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-x-superset-image: &superset-image apache/superset:${TAG:-latest-dev}
+x-superset-image: &superset-image apache/superset:2.0.1
 x-superset-depends-on: &superset-depends-on
   - db
   - redis
@@ -34,7 +34,7 @@ services:
 
   db:
     env_file: docker/.env-non-dev
-    image: postgres:10
+    image: postgres:14
     container_name: superset_db
     restart: unless-stopped
     volumes:
