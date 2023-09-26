@@ -74,6 +74,8 @@ import {
   TimeGrainFilterPlugin,
   GroupByFilterPlugin,
 } from 'src/filters/components';
+import CalendarRangePlugin from 'calendar-range-plugin';
+import { SupersetxFunnelChartPlugin } from 'funnel-chart-plugin';
 import { PivotTableChartPlugin as PivotTableChartPluginV2 } from '@superset-ui/plugin-chart-pivot-table';
 import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
 import FilterBoxChartPlugin from '../FilterBox/FilterBoxChartPlugin';
@@ -160,6 +162,8 @@ export default class MainPreset extends Preset {
         new EchartsTreeChartPlugin().configure({ key: 'tree_chart' }),
         new EchartsSunburstChartPlugin().configure({ key: 'sunburst_v2' }),
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
+        new CalendarRangePlugin().configure({ key: 'calendar_range' }),
+        new SupersetxFunnelChartPlugin().configure({ key: 'funnel_chart' }),
         ...experimentalplugins,
       ],
     });
