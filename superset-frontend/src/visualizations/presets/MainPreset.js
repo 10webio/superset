@@ -74,7 +74,7 @@ import {
   TimeGrainFilterPlugin,
   GroupByFilterPlugin,
 } from 'src/filters/components';
-import CalendarRangePlugin from 'calendar-range-plugin';
+import CalendarRangePlugin from '@10webio/calendar-range-plugin';
 import { SupersetxFunnelChartPlugin } from 'funnel-chart-plugin';
 import { PivotTableChartPlugin as PivotTableChartPluginV2 } from '@superset-ui/plugin-chart-pivot-table';
 import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
