@@ -1,4 +1,4 @@
-/**
+/*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -16,25 +16,23 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-/* eslint-disable no-unused-expressions */
-import { defaultState } from 'src/explore/store';
-import exploreReducer from 'src/explore/reducers/exploreReducer';
-import * as actions from 'src/explore/actions/exploreActions';
 
-describe('reducers', () => {
-  it('Does not set a control value if control does not exist', () => {
-    const newState = exploreReducer(
-      defaultState,
-      actions.setControlValue('NEW_FIELD', 'x', []),
-    );
-    expect(newState.controls.NEW_FIELD).toBeUndefined();
+import { validateMaxValue } from '@superset-ui/core';
+import './setup';
+
+describe('validateInteger()', () => {
+  it('returns the warning message if invalid', () => {
+    expect(validateMaxValue(10.1, 10)).toBeTruthy();
+    expect(validateMaxValue(1, 0)).toBeTruthy();
+    expect(validateMaxValue('2', 1)).toBeTruthy();
   });
-  it('setControlValue works as expected with a Select control', () => {
-    const newState = exploreReducer(
-      defaultState,
-      actions.setControlValue('y_axis_format', '$,.2f', []),
-    );
-    expect(newState.controls.y_axis_format.value).toBe('$,.2f');
-    expect(newState.form_data.y_axis_format).toBe('$,.2f');
+  it('returns false if the input is valid', () => {
+    expect(validateMaxValue(0, 1)).toBeFalsy();
+    expect(validateMaxValue(10, 10)).toBeFalsy();
+    expect(validateMaxValue(undefined, 1)).toBeFalsy();
+    expect(validateMaxValue(NaN, NaN)).toBeFalsy();
+    expect(validateMaxValue(null, 1)).toBeFalsy();
+    expect(validateMaxValue('1', 1)).toBeFalsy();
+    expect(validateMaxValue('a', 1)).toBeFalsy();
   });
 });
