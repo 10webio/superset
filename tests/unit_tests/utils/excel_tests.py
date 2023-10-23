@@ -14,35 +14,18 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-"""add on delete cascade for embedded_dashboards
 
-Revision ID: 4448fa6deeb1
-Revises: 8ace289026f3
-Create Date: 2023-08-09 15:39:58.130228
+from datetime import datetime, timezone
 
-"""
+import pandas as pd
 
-# revision identifiers, used by Alembic.
-revision = "4448fa6deeb1"
-down_revision = "8ace289026f3"
-
-from superset.migrations.shared.constraints import ForeignKey, redefine
-
-foreign_keys = [
-    ForeignKey(
-        table="embedded_dashboards",
-        referent_table="dashboards",
-        local_cols=["dashboard_id"],
-        remote_cols=["id"],
-    ),
-]
+from superset.utils.excel import df_to_excel
 
 
-def upgrade():
-    for foreign_key in foreign_keys:
-        redefine(foreign_key, on_delete="CASCADE")
-
-
-def downgrade():
-    for foreign_key in foreign_keys:
-        redefine(foreign_key)
+def test_timezone_conversion() -> None:
+    """
+    Test that columns with timezones are converted to a string.
+    """
+    df = pd.DataFrame({"dt": [datetime(2023, 1, 1, 0, 0, tzinfo=timezone.utc)]})
+    contents = df_to_excel(df)
+    assert pd.read_excel(contents)["dt"][0] == "2023-01-01 00:00:00+00:00"
