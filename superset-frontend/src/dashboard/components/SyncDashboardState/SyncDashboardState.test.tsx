@@ -1,4 +1,4 @@
-/*
+/**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -16,23 +16,19 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+import React from 'react';
+import { render } from 'spec/helpers/testing-library';
+import { getItem, LocalStorageKeys } from 'src/utils/localStorageHelpers';
+import SyncDashboardState from '.';
 
-import { validateMaxValue } from '@superset-ui/core';
-import './setup';
-
-describe('validateInteger()', () => {
-  it('returns the warning message if invalid', () => {
-    expect(validateMaxValue(10.1, 10)).toBeTruthy();
-    expect(validateMaxValue(1, 0)).toBeTruthy();
-    expect(validateMaxValue('2', 1)).toBeTruthy();
+test('stores the dashboard info with local storages', () => {
+  const testDashboardPageId = 'dashboardPageId';
+  render(<SyncDashboardState dashboardPageId={testDashboardPageId} />, {
+    useRedux: true,
   });
-  it('returns false if the input is valid', () => {
-    expect(validateMaxValue(0, 1)).toBeFalsy();
-    expect(validateMaxValue(10, 10)).toBeFalsy();
-    expect(validateMaxValue(undefined, 1)).toBeFalsy();
-    expect(validateMaxValue(NaN, NaN)).toBeFalsy();
-    expect(validateMaxValue(null, 1)).toBeFalsy();
-    expect(validateMaxValue('1', 1)).toBeFalsy();
-    expect(validateMaxValue('a', 1)).toBeFalsy();
+  expect(getItem(LocalStorageKeys.dashboard__explore_context, {})).toEqual({
+    [testDashboardPageId]: expect.objectContaining({
+      dashboardPageId: testDashboardPageId,
+    }),
   });
 });
