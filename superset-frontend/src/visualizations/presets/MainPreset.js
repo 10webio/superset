@@ -76,6 +76,7 @@ import {
 } from 'src/filters/components';
 import CalendarRangePlugin from '@10webio/calendar-range-plugin';
 import { SupersetxFunnelChartPlugin } from 'funnel-chart-plugin';
+import { CalendarPicker } from 'calendar-picker';
 import { PivotTableChartPlugin as PivotTableChartPluginV2 } from '@superset-ui/plugin-chart-pivot-table';
 import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
 import FilterBoxChartPlugin from '../FilterBox/FilterBoxChartPlugin';
@@ -164,6 +165,7 @@ export default class MainPreset extends Preset {
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
         new CalendarRangePlugin().configure({ key: 'calendar_range' }),
         new SupersetxFunnelChartPlugin().configure({ key: 'funnel_chart' }),
+	new CalendarPicker().configure({ key: 'calendar-picker' }), 
         ...experimentalplugins,
       ],
     });
