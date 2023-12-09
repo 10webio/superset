@@ -165,7 +165,7 @@ export default class MainPreset extends Preset {
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
         new CalendarRangePlugin().configure({ key: 'calendar_range' }),
         new SupersetxFunnelChartPlugin().configure({ key: 'funnel_chart' }),
-	new CalendarPicker().configure({ key: 'calendar-picker' }), 
+        new CalendarPicker().configure({ key: 'calendar-picker' }),
         ...experimentalplugins,
       ],
     });
