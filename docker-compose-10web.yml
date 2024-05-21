@@ -23,6 +23,7 @@ x-superset-volumes:
   - ./docker:/app/docker
   - superset_home:/app/superset_home
   - ./10web-uploads:/app/superset/static/assets/10web-uploads
+  - ./10web_custom.html:/app/superset/templates/tail_js_custom_extra.html
 
 version: "3.7"
 services:

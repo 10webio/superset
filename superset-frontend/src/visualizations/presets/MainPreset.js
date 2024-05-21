@@ -75,7 +75,7 @@ import {
   TimeGrainFilterPlugin,
 } from 'src/filters/components';
 
-import CalendarRangePlugin from '@10webio/calendar-range-plugin';
+//import CalendarRangePlugin from '@10webio/calendar-range-plugin';
 import { SupersetxFunnelChartPlugin } from 'funnel-chart-plugin';
 import { CalendarPicker } from 'calendar-picker';
 
@@ -171,8 +171,7 @@ export default class MainPreset extends Preset {
         new EchartsTreeChartPlugin().configure({ key: 'tree_chart' }),
         new EchartsSunburstChartPlugin().configure({ key: 'sunburst_v2' }),
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
-        
-        new CalendarRangePlugin().configure({ key: 'calendar_range' }),
+        //new CalendarRangePlugin().configure({ key: 'calendar_range' }),
         new SupersetxFunnelChartPlugin().configure({ key: 'funnel_chart' }),
         new CalendarPicker().configure({ key: 'calendar-picker' }),
 
