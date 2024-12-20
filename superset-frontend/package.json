@@ -205,7 +205,9 @@
     "use-event-callback": "^0.1.0",
     "use-immer": "^0.9.0",
     "use-query-params": "^1.1.9",
-    "yargs": "^17.7.2"
+    "yargs": "^17.7.2",
+    "calendar-picker": "file:plugins/calendar-picker/package",
+    "funnel-chart-plugin": "file:plugins/funnel-chart-plugin/package"
   },
   "devDependencies": {
     "@applitools/eyes-storybook": "^3.50.7",

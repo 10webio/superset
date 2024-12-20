@@ -83,6 +83,9 @@ import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
 import { FilterPlugins } from 'src/constants';
 import TimeTableChartPlugin from '../TimeTable';
 
+import { SupersetxFunnelChartPlugin } from 'funnel-chart-plugin';
+import { CalendarPicker } from 'calendar-picker';
+
 export default class MainPreset extends Preset {
   constructor() {
     const experimentalPlugins = isFeatureEnabled(
@@ -177,6 +180,8 @@ export default class MainPreset extends Preset {
         new EchartsSunburstChartPlugin().configure({ key: 'sunburst_v2' }),
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
         new EchartsBubbleChartPlugin().configure({ key: 'bubble_v2' }),
+        new SupersetxFunnelChartPlugin().configure({ key: 'funnel_chart' }),
+        new CalendarPicker().configure({ key: 'calendar-picker' }),
         ...experimentalPlugins,
       ],
     });

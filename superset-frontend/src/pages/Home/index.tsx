@@ -350,7 +350,7 @@ function Welcome({ user, addDangerToast }: WelcomeProps) {
       },
     ];
   }
-
+  window.location.replace('/superset/dashboard/home/');
   return (
     <>
       {SubmenuExtension ? (

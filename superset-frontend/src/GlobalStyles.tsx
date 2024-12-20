@@ -95,6 +95,9 @@ export const GlobalStyles = () => (
           margin-right: 0;
         }
       }
+      div[data-test-viz-type='calendar-picker'] {
+        display: none;
+      }
     `}
   />
 );
