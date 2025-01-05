@@ -78,13 +78,12 @@ import {
   TimeColumnFilterPlugin,
   TimeGrainFilterPlugin,
 } from 'src/filters/components';
+import { SupersetxFunnelChartPlugin } from 'funnel-chart-plugin';
+import { CalendarPicker } from 'calendar-picker';
 import { PivotTableChartPlugin as PivotTableChartPluginV2 } from '@superset-ui/plugin-chart-pivot-table';
 import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
 import { FilterPlugins } from 'src/constants';
 import TimeTableChartPlugin from '../TimeTable';
-
-import { SupersetxFunnelChartPlugin } from 'funnel-chart-plugin';
-import { CalendarPicker } from 'calendar-picker';
 
 export default class MainPreset extends Preset {
   constructor() {

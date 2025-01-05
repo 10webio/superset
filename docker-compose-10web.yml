@@ -14,7 +14,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-x-superset-image: &superset-image dc.10web.io:5050/reporting/superset:4.0.1.1
+
+# -----------------------------------------------------------------------
+# We don't support docker-compose for production environments.
+# If you choose to use this type of deployment make sure to
+# create you own docker environment file (docker/.env) with your own
+# unique random secure passwords and SECRET_KEY.
+# -----------------------------------------------------------------------
+x-superset-image: &superset-image dc.10web.io:5050/reporting/superset:4.1.1.0
+# x-superset-image: &superset-image apachesuperset.docker.scarf.sh/apache/superset:${TAG:-latest-dev}
 x-superset-depends-on: &superset-depends-on
   - db
   - redis
@@ -24,8 +32,6 @@ x-superset-volumes:
   - superset_home:/app/superset_home
   - ./10web-uploads:/app/superset/static/assets/10web-uploads
   - ./10web_custom.html:/app/superset/templates/tail_js_custom_extra.html
-
-version: "3.7"
 services:
   redis:
     image: redis:7
@@ -35,7 +41,11 @@ services:
       - redis:/data
 
   db:
-    env_file: docker/.env-non-dev
+    env_file:
+      - path: docker/.env # default
+        required: true
+      - path: docker/.env-local # optional override
+        required: false
     image: postgres:14
     container_name: superset_db
     restart: unless-stopped
@@ -44,7 +54,11 @@ services:
       - ./docker/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
 
   superset:
-    env_file: docker/.env-non-dev
+    env_file:
+      - path: docker/.env # default
+        required: true
+      - path: docker/.env-local # optional override
+        required: false
     image: *superset-image
     container_name: superset_app
     command: ["/app/docker/docker-bootstrap.sh", "app-gunicorn"]
@@ -59,7 +73,11 @@ services:
     image: *superset-image
     container_name: superset_init
     command: ["/app/docker/docker-init.sh"]
-    env_file: docker/.env-non-dev
+    env_file:
+      - path: docker/.env # default
+        required: true
+      - path: docker/.env-local # optional override
+        required: false
     depends_on: *superset-depends-on
     user: "root"
     volumes: *superset-volumes
@@ -70,7 +88,11 @@ services:
     image: *superset-image
     container_name: superset_worker
     command: ["/app/docker/docker-bootstrap.sh", "worker"]
-    env_file: docker/.env-non-dev
+    env_file:
+      - path: docker/.env # default
+        required: true
+      - path: docker/.env-local # optional override
+        required: false
     restart: unless-stopped
     depends_on: *superset-depends-on
     user: "root"
@@ -86,7 +108,11 @@ services:
     image: *superset-image
     container_name: superset_worker_beat
     command: ["/app/docker/docker-bootstrap.sh", "beat"]
-    env_file: docker/.env-non-dev
+    env_file:
+      - path: docker/.env # default
+        required: true
+      - path: docker/.env-local # optional override
+        required: false
     restart: unless-stopped
     depends_on: *superset-depends-on
     user: "root"
