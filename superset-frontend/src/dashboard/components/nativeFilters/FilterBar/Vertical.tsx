@@ -202,7 +202,7 @@ const VerticalFilterBar: FC<VerticalBarProps> = ({
     <FilterBarScrollContext.Provider value={isScrolling}>
       <BarWrapper
         {...getFilterBarTestId()}
-        className={cx({ open: filtersOpen })}
+        className={cx('TW-VerticalFilterBarWrapper', { open: filtersOpen })}
         width={width}
       >
         <CollapsedBar
@@ -221,7 +221,7 @@ const VerticalFilterBar: FC<VerticalBarProps> = ({
             iconSize="l"
           />
         </CollapsedBar>
-        <Bar className={cx({ open: filtersOpen })} width={width}>
+        <Bar className={cx('TW-VerticalFilterBar', { open: filtersOpen })} width={width}>
           <Header toggleFiltersBar={toggleFiltersBar} />
           {!isInitialized ? (
             <div css={{ height }}>
