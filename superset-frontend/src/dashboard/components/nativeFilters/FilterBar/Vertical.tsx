@@ -221,7 +221,7 @@ const VerticalFilterBar: FC<VerticalBarProps> = ({
             iconSize="l"
           />
         </CollapsedBar>
-        <Bar 
+        <Bar
           className={cx('TW-VerticalFilterBar', { open: filtersOpen })}
           width={width}
         >
