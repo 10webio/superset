@@ -221,7 +221,10 @@ const VerticalFilterBar: FC<VerticalBarProps> = ({
             iconSize="l"
           />
         </CollapsedBar>
-        <Bar className={cx({ open: filtersOpen })} width={width}>
+        <Bar
+          className={cx('TW-VerticalFilterBar', { open: filtersOpen })}
+          width={width}
+        >
           <Header toggleFiltersBar={toggleFiltersBar} />
           {!isInitialized ? (
             <div css={{ height }}>
