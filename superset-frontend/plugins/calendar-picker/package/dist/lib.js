@@ -3,8 +3,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import ReactDOM from 'react-dom';
 import moment from 'moment';
-import { styled } from '@emotion/react';
-import { t, styled as supersetStyled } from '@superset-ui/core';
+import { styled as emotionStyled } from '@emotion/react';
+import { t, styled } from '@superset-ui/core';
 import { sharedControls } from '@superset-ui/chart-controls';
 import { DateRange, DateRangePicker, createStaticRanges } from 'react-date-range';
 import { Button, Select, Modal } from 'antd';
@@ -58,7 +58,7 @@ const TIME_GRAIN_LABELS = {
 };
 
 // Styled components
-const CalendarWrapper = styled.div`
+const CalendarWrapper = emotionStyled.div`
   background: linear-gradient(135deg, #b5d2d836, #d0f5fc47);
   padding: 20px;  
   border-radius: 5px;
@@ -68,17 +68,17 @@ const CalendarWrapper = styled.div`
   color: #333;
 `;
 
-const StyledSpan = styled.span`
+const StyledSpan = emotionStyled.span`
   font-weight: bold;
 `;
 
-const StyledDiv = styled.div`
+const StyledDiv = emotionStyled.div`
   font-weight: 600;
   font-size: 12;
   margin-bottom: 4px;
 `;
 
-const StyledModal = styled(Modal)`
+const StyledModal = emotionStyled(Modal)`
   .ant-modal-content {
     width: fit-content;
   }
