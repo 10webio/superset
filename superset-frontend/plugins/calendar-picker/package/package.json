@@ -1,6 +1,6 @@
 {
   "name": "calendar-picker",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Calendar Picker",
   "sideEffects": false,
   "private": true,
@@ -9,14 +9,15 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run build-cjs && npm run build-esm && npx webpack --config webpack.config.js",
+    "build": "npm run build-cjs && npm run build-esm && npx webpack --config webpack.config.js && npm run pack-and-restore",
     "build-cjs": "babel src --extensions \".ts,.tsx,.js,.jsx\" --copy-files --out-dir lib",
     "build-clean": "npm run clean && npm run build",
     "build-esm": "BABEL_OUTPUT=esm babel src --extensions \".ts,.tsx,.js,.jsx\" --copy-files --out-dir esm",
     "dev": "BABEL_OUTPUT=esm babel src --extensions \".ts,.tsx,.js,.jsx\" --watch --copy-files --out-dir esm",
     "prebuild": "rimraf {lib,esm,tsconfig.tsbuildinfo}",
     "ts-types": "tsc --build",
-    "test": "jest"
+    "test": "jest",
+    "pack-and-restore": "node packAndRestore.js"
   },
   "author": "Aldrin Rayen",
   "license": "Apache-2.0",
