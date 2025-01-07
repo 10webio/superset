@@ -1,1 +1,630 @@
-function a0_0x167b(_0x4199f1,_0x322da3){var _0x4ac5eb=a0_0x4ac5();return a0_0x167b=function(_0x167bb7,_0x29e12c){_0x167bb7=_0x167bb7-0x197;var _0x146099=_0x4ac5eb[_0x167bb7];return _0x146099;},a0_0x167b(_0x4199f1,_0x322da3);}(function(_0x40aff8,_0x437f4c){var _0x31bea1=a0_0x167b,_0x56157e=_0x40aff8();while(!![]){try{var _0x28e851=parseInt(_0x31bea1(0x1b5))/0x1*(-parseInt(_0x31bea1(0x1b4))/0x2)+-parseInt(_0x31bea1(0x1b0))/0x3*(-parseInt(_0x31bea1(0x197))/0x4)+-parseInt(_0x31bea1(0x1c3))/0x5+-parseInt(_0x31bea1(0x1b2))/0x6*(parseInt(_0x31bea1(0x1ab))/0x7)+-parseInt(_0x31bea1(0x19e))/0x8+-parseInt(_0x31bea1(0x1ad))/0x9+parseInt(_0x31bea1(0x1ae))/0xa;if(_0x28e851===_0x437f4c)break;else _0x56157e['push'](_0x56157e['shift']());}catch(_0x63135f){_0x56157e['push'](_0x56157e['shift']());}}}(a0_0x4ac5,0x5d7e3),!function(_0x2e24f8,_0x166866){if('object'==typeof exports&&'object'==typeof module)module['exports']=_0x166866();else{if('function'==typeof define&&define['amd'])define([],_0x166866);else{var _0x29ddfc=_0x166866();for(var _0x281630 in _0x29ddfc)('object'==typeof exports?exports:_0x2e24f8)[_0x281630]=_0x29ddfc[_0x281630];}}}(self,()=>((()=>{'use strict';var _0x1b1559={0x1af:(_0x50aab7,_0x20bb3a,_0x1babfd)=>{var _0x2fa755=a0_0x167b,_0x1f2245=_0x27eab8;function _0x26dfd3(){var _0x52f862=['316628RWSNyd','475990EfjPbp','has','subDays','set','padding','Select','startOfDay','16ubIJMd','reduce','removeChild','Fragment','map','getBoundingClientRect','format','startDate','prototype','style','CloseCircleOutlined','add','43qkSaFT','minDate','setAttribute','querySelector','right','default','useState','render','850360gblFtf','CalendarOutlined','useCallback','startOfMonth','isBefore','defineProperty','length','206025qFsdam','DateRange','useEffect','27JrtvFY','parentNode','endOfMonth','1548546gXknNC','355481NqYxmE','color','Button','getOwnPropertyDescriptor','Modal','raw','prepend','endOfWeek','subMonths','get','div','display','__esModule','customStyles','Component','6676wJKFVb','createElement','startOfWeek','DateRangePicker','createStaticRanges','getElementById','margin','maxDate','endDate','slice','selection','top','hasOwnProperty','overflowWrap'];return(_0x26dfd3=function(){return _0x52f862;})();}!function(_0x3eeb49,_0x10c750){var _0x367618=a0_0x167b;for(var _0x5ece1b=_0x27eab8,_0x3ce998=_0x3eeb49();;)try{if(0x20f6e==-parseInt(_0x5ece1b(0x1c6))/0x1*(-parseInt(_0x5ece1b(0x1eb))/0x2)+parseInt(_0x5ece1b(0x1d5))/0x3+parseInt(_0x5ece1b(0x1f9))/0x4+-parseInt(_0x5ece1b(0x1ce))/0x5+parseInt(_0x5ece1b(0x1db))/0x6+parseInt(_0x5ece1b(0x1dc))/0x7*(-parseInt(_0x5ece1b(0x201))/0x8)+parseInt(_0x5ece1b(0x1d8))/0x9*(-parseInt(_0x5ece1b(0x1fa))/0xa))break;_0x3ce998[_0x367618(0x1c4)](_0x3ce998[_0x367618(0x19b)]());}catch(_0x3ff4ff){_0x3ce998[_0x367618(0x1c4)](_0x3ce998[_0x367618(0x19b)]());}}(_0x26dfd3),_0x20bb3a[_0x1f2245(0x1e8)]=!0x0,_0x20bb3a[_0x1f2245(0x1cb)]=function(_0x552ecd){var _0x2d74e9=a0_0x167b,_0x2ff191=_0x1f2245,{data:_0x5aaf3f,setDataMask:_0x5aebf6,cols:_0x2cfcc8,buttonHeight:_0x10f524,buttonWidth:_0x325737,popupPresist:_0x28fc25,showPresets:_0xcc7949,defaultButtonText:_0x188a56,defaultStartDate:_0x3b2cbc,defaultEndDate:_0x412285,showTimegrain:_0x54b16f,defaultTimeGrain:_0x4589f2,showInNativeFilter:_0xa207fc,showInNativeFilterLabel:_0x6dc449,HideonViewMode:_0x25a01d,sliceId:_0x282b8a,weekStartsOn:_0x2c12a,showCalenderIcon:_0x333ba9,status:_0x5da3b8,nDaysAgo:_0x43ad0d,timeGrainSqla:_0xfcfe29}=_0x552ecd,_0x3e733d=document[_0x2ff191(0x1c9)]('[data-test="filter-bar"] > div:nth-of-type(2) > div:nth-of-type(2)');if(_0xa207fc&&_0x3e733d){var _0x47f34f=document[_0x2d74e9(0x1a6)]('.dashboard-chart-id-'+_0x282b8a);_0x47f34f[_0x2ff191(0x20a)][_0x2ff191(0x1e7)]='block',_0x47f34f&&_0x25a01d&&(_0x47f34f[_0x2d74e9(0x1bb)][_0x2ff191(0x1e7)]='none');}else{var _0x527d4e=document[_0x2d74e9(0x1a6)]('.dashboard-chart-id-'+_0x282b8a);_0x527d4e&&(_0x527d4e[_0x2ff191(0x20a)][_0x2ff191(0x1e7)]='block');}var _0x2dc2d6=(0x0,_0x21a2bf[_0x2ff191(0x1d0)])((_0x426e23,_0xaa0e4f)=>{var _0x207e25=_0x2d74e9,_0x2da38d,_0x5a8fca,_0x16b85c=_0x2ff191,_0x5b532a=_0x426e23,[_0x3cbb5b,_0x7af6c2]=[_0x426e23[0x0][_0x16b85c(0x208)],_0x426e23[0x0][_0x16b85c(0x1f3)]],_0x2f3888=_0xaa0e4f?' ( '+_0x5727f9[_0xaa0e4f]+' )':'';_0x3cbb5b&&_0x7af6c2?(_0x5b532a&&(_0x2da38d=(0x0,_0x3da63d[_0x207e25(0x1af)])(_0x3cbb5b)[_0x16b85c(0x207)](_0x2069ce),_0x5a8fca=(0x0,_0x3da63d[_0x16b85c(0x1cb)])(_0x7af6c2)[_0x16b85c(0x1c5)](0x1,'d')[_0x16b85c(0x207)](_0x2069ce)),_0x5aebf6({'extraFormData':{'time_range':[_0x2da38d,_0x5a8fca][_0x207e25(0x19c)](' : '),'time_grain_sqla':_0x23e799[_0xaa0e4f]},'filterState':{'value':[(0x0,_0x3da63d[_0x16b85c(0x1cb)])(_0x3cbb5b)[_0x207e25(0x1a4)]('MMM DD, YYYY'),(0x0,_0x3da63d[_0x16b85c(0x1cb)])(_0x7af6c2)[_0x207e25(0x1a4)]('MMM DD, YYYY')+_0x2f3888]}})):_0xaa0e4f&&_0x5aebf6({'extraFormData':{'time_grain_sqla':_0x23e799[_0xaa0e4f]},'filterState':{'value':[_0x2f3888]}});},[_0x5aebf6]),_0x307794=function(_0x1182ba,_0x35ab50){var _0x4c7568=_0x2ff191;if(0x0===_0x1182ba[_0x4c7568(0x1d4)])return{'minDate':null,'maxDate':null};var _0x201442={'minDate':_0x1182ba[0x0][_0x35ab50],'maxDate':_0x1182ba[0x0][_0x35ab50]};return _0x1182ba[_0x4c7568(0x202)]((_0x1a758e,_0x3a7f8b)=>{var _0x11d5eb=a0_0x167b,_0x2d7f1b=_0x4c7568,_0x6f318a=_0x3a7f8b[_0x35ab50];return _0x6f318a<_0x1a758e[_0x11d5eb(0x1c0)]&&(_0x1a758e[_0x11d5eb(0x1c0)]=_0x6f318a),_0x6f318a>_0x1a758e[_0x11d5eb(0x1bc)]&&(_0x1a758e[_0x2d7f1b(0x1f2)]=_0x6f318a),_0x1a758e;},_0x201442);}(_0x5aaf3f,_0x2cfcc8);function _0x60b32(_0x41b69b){var _0x1f2d56=_0x2ff191;return!!_0x41b69b&&String(_0x41b69b)[_0x1f2d56(0x1d4)]>0x0;}var [_0x4b2ddb,_0x22e57d]=(0x0,_0x21a2bf[_0x2ff191(0x1cc)])(_0x4589f2||null),_0x49baba=()=>{var _0x28d92a=_0x2d74e9,_0x33b09c=_0x2ff191;return _0x21a2bf['default'][_0x28d92a(0x1a2)](_0xbdd84e[_0x33b09c(0x1ff)],{'placeholder':'Select a time grain','onChange':_0x173416=>{_0x22e57d(_0x173416);},'style':{'width':0xaa,'marginRight':0xa},'value':_0x4b2ddb,'suffixIcon':_0x21a2bf[_0x33b09c(0x1cb)][_0x33b09c(0x1ec)](_0x12974a[_0x33b09c(0x20b)],{'style':{'color':'rgba(0, 0, 0, 0.25)','cursor':'pointer'},'onClick':()=>{_0x22e57d('');},'rev':void 0x0})},_0x21a2bf[_0x33b09c(0x1cb)][_0x33b09c(0x1ec)](_0x59f806,{'value':''},'Select a time grain'),_0xfcfe29[_0x33b09c(0x205)](_0x1be5f1=>{var _0x1dae6a=_0x33b09c,[_0x374aa1,_0xddc1f2]=_0x1be5f1;return _0x21a2bf[_0x1dae6a(0x1cb)][_0x1dae6a(0x1ec)](_0x59f806,{'key':_0x374aa1,'value':_0x374aa1},_0xddc1f2);}));};(0x0,_0x21a2bf[_0x2ff191(0x1d7)])(()=>{_0x22e57d(_0x4589f2);},[_0x4589f2]);var _0x1fedb8=[{'startDate':_0x60b32(_0x3b2cbc)?new Date(_0x3b2cbc):null,'endDate':_0x60b32(_0x412285)?new Date(_0x412285):new Date(''),'key':'selection'}],_0x1c0e2f=[{'startDate':null,'endDate':new Date(''),'key':'selection'}],[_0x14de4a,_0x57b89e]=(0x0,_0x21a2bf['useState'])(_0x1fedb8),[_0x160097,_0xe6c5a5]=(0x0,_0x21a2bf[_0x2ff191(0x1cc)])(_0x1fedb8),[_0x5c09a1,_0x26ee94]=(0x0,_0x21a2bf['useState'])({'top':0x0,'left':0x0}),[_0x305229,_0x21bbaa]=(0x0,_0x21a2bf['useState'])([0x0,0x0]);(0x0,_0x21a2bf[_0x2d74e9(0x1a0)])(()=>{0xc8==_0x5da3b8&&(_0x57b89e(_0x1fedb8),_0xe6c5a5(_0x1fedb8),_0x2dc2d6(_0x1fedb8,_0x4b2ddb));},[_0x5da3b8,_0x43ad0d,_0x4589f2]);class _0x171daa extends _0x21a2bf[_0x2ff191(0x1ea)]{[_0x2ff191(0x1cd)](){var _0x5b8075=_0x2d74e9,_0x16b82c=_0x2ff191,_0xd01981=_0x53b22b=>{'Apply'==_0x53b22b&&(_0xe6c5a5(_0x14de4a),_0x2dc2d6(_0x14de4a,_0x4b2ddb),!_0x28fc25&&_0x28290d(!0x1)),'Clear'==_0x53b22b&&(_0x57b89e(_0x1c0e2f),_0xe6c5a5(_0x1c0e2f),_0x5aebf6({'extraFormData':{},'filterState':{'value':''}}),_0x22e57d(null),_0x21bbaa([0x0,0x0]),!_0x28fc25&&_0x28290d(!0x1));},_0x24ea51=_0x555bdd=>{_0x21bbaa(_0x555bdd);},_0x424ff9=(0x0,_0x44bc10[_0x16b82c(0x1ef)])([{'label':'Today','range':()=>({'startDate':(0x0,_0xf702d[_0x16b82c(0x200)])(new Date()),'endDate':(0x0,_0xf702d[_0x5b8075(0x1be)])(new Date())})},{'label':'Yesterday','range':()=>({'startDate':(0x0,_0xf702d[_0x16b82c(0x200)])((0x0,_0xf702d[_0x16b82c(0x1fc)])(new Date(),0x1)),'endDate':(0x0,_0xf702d[_0x16b82c(0x200)])((0x0,_0xf702d[_0x16b82c(0x1fc)])(new Date(),0x1))})},{'label':'Last 7 Days','range':()=>({'startDate':(0x0,_0xf702d[_0x16b82c(0x200)])((0x0,_0xf702d[_0x16b82c(0x1fc)])(new Date(),0x6)),'endDate':(0x0,_0xf702d[_0x16b82c(0x200)])(new Date())})},{'label':'This Week','range':()=>{var _0xc08f57=_0x16b82c,_0xe50677=(0x0,_0xf702d[_0xc08f57(0x1ed)])(new Date(),{'weekStartsOn':_0x2c12a}),_0x404fba=(0x0,_0xf702d[_0xc08f57(0x1e3)])(new Date(),{'weekStartsOn':_0x2c12a});return{'startDate':(0x0,_0xf702d[_0xc08f57(0x200)])(_0xe50677),'endDate':(0x0,_0xf702d[_0xc08f57(0x200)])(_0x404fba)};}},{'label':'Last Week','range':()=>{var _0x789185=_0x16b82c,_0x358c59=(0x0,_0xf702d[_0x789185(0x1ed)])((0x0,_0xf702d[_0x789185(0x1fc)])(new Date(),0x7),{'weekStartsOn':_0x2c12a}),_0x1362b6=(0x0,_0xf702d[_0x789185(0x1e3)])((0x0,_0xf702d[_0x789185(0x1fc)])(new Date(),0x7),{'weekStartsOn':_0x2c12a});return{'startDate':(0x0,_0xf702d[_0x789185(0x200)])(_0x358c59),'endDate':(0x0,_0xf702d[_0x789185(0x200)])(_0x1362b6)};}},{'label':'Last 28 Days','range':()=>({'startDate':(0x0,_0xf702d[_0x16b82c(0x200)])((0x0,_0xf702d['subDays'])(new Date(),0x1b)),'endDate':(0x0,_0xf702d[_0x16b82c(0x200)])(new Date())})},{'label':'This Month','range':()=>{var _0x8d2e11=_0x5b8075,_0xf596f2=(0x0,_0xf702d[_0x16b82c(0x1d1)])(new Date()),_0x17f631=(0x0,_0xf702d[_0x8d2e11(0x1c5)])(new Date());return{'startDate':(0x0,_0xf702d[_0x8d2e11(0x1be)])(_0xf596f2),'endDate':(0x0,_0xf702d['startOfDay'])(_0x17f631)};}},{'label':'Last Month','range':()=>{var _0x50453c=_0x5b8075,_0x572120=_0x16b82c,_0x89bdb9=(0x0,_0xf702d[_0x572120(0x1d1)])((0x0,_0xf702d[_0x572120(0x1e4)])(new Date(),0x1)),_0x3780fb=(0x0,_0xf702d[_0x572120(0x1da)])((0x0,_0xf702d[_0x572120(0x1e4)])(new Date(),0x1));return{'startDate':(0x0,_0xf702d[_0x50453c(0x1be)])(_0x89bdb9),'endDate':(0x0,_0xf702d[_0x572120(0x200)])(_0x3780fb)};}},{'label':'Last 90 Days','range':()=>({'startDate':(0x0,_0xf702d[_0x16b82c(0x200)])((0x0,_0xf702d[_0x16b82c(0x1fc)])(new Date(),0x59)),'endDate':(0x0,_0xf702d[_0x16b82c(0x200)])(new Date())})},{'label':'Last 12 Months','range':()=>{var _0x2f34a6=_0x5b8075,_0x533eeb=_0x16b82c,_0x9f7e5c=(0x0,_0xf702d[_0x2f34a6(0x19f)])((0x0,_0xf702d['subMonths'])(new Date(),0xb)),_0x5c1069=(0x0,_0xf702d[_0x533eeb(0x1da)])(new Date());return{'startDate':(0x0,_0xf702d[_0x533eeb(0x200)])(_0x9f7e5c),'endDate':(0x0,_0xf702d['startOfDay'])(_0x5c1069)};}}]);return _0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x1ec)](_0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x204)],null,_0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x1ec)]('div',{'id':'calender'+String(_0x282b8a)},_0xcc7949?_0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x1ec)](_0x44bc10[_0x16b82c(0x1ee)],{'minDate':new Date(_0x307794[_0x16b82c(0x1c7)]),'maxDate':new Date(_0x307794[_0x16b82c(0x1f2)]),'startDatePlaceholder':'Start Date','endDatePlaceholder':'End Date','focusedRange':_0x305229,'onRangeFocusChange':_0x24ea51,'onChange':_0x53e536=>{var _0x13b03a=_0x5b8075,_0x2420cb=_0x27eab8,{selection:_0x1fa2a4}=_0x53e536;_0x21bbaa([0x0,0x1]),_0x1fa2a4[_0x13b03a(0x1b6)]?_0x57b89e([{'startDate':_0x1fa2a4['startDate'],'endDate':_0x1fa2a4[_0x2420cb(0x1f3)],'key':'selection'}]):_0x57b89e([{'startDate':_0x1fa2a4[_0x2420cb(0x208)],'endDate':_0x1fa2a4[_0x2420cb(0x1f3)],'key':'selection','autoFocus':!0x1}]);},'ranges':_0x14de4a,'rangeColors':['#808080','#808080','#808080'],'weekStartsOn':_0x2c12a,'staticRanges':_0x424ff9,'shownDate':'Invalid Date'!=_0x14de4a[0x0][_0x16b82c(0x1f3)]&&new Date(_0x14de4a[0x0][_0x5b8075(0x1b6)])?_0x14de4a[0x0][_0x16b82c(0x1f3)]:new Date(_0x307794[_0x16b82c(0x1f2)])}):_0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x1ec)](_0x44bc10[_0x16b82c(0x1d6)],{'minDate':new Date(_0x307794[_0x16b82c(0x1c7)]),'maxDate':new Date(_0x307794[_0x5b8075(0x1bc)]),'startDatePlaceholder':'Start Date','endDatePlaceholder':'End Date','focusedRange':_0x305229,'onRangeFocusChange':_0x24ea51,'onChange':_0x4c6153=>_0x57b89e([_0x4c6153[_0x16b82c(0x1f5)]]),'moveRangeOnFirstSelection':!0x1,'ranges':_0x14de4a,'rangeColors':['#808080','#808080','#808080'],'weekStartsOn':_0x2c12a,'shownDate':'Invalid Date'!=_0x14de4a[0x0][_0x16b82c(0x1f3)]&&new Date(_0x14de4a[0x0][_0x5b8075(0x1b6)])?_0x14de4a[0x0][_0x16b82c(0x1f3)]:new Date(_0x307794[_0x16b82c(0x1f2)])}),_0x21a2bf[_0x16b82c(0x1cb)][_0x5b8075(0x1a2)]('div',{'style':{'textAlign':'end'}},_0x54b16f?_0x21a2bf[_0x16b82c(0x1cb)]['createElement'](_0x49baba,null):_0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x1ec)](_0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x204)],null),_0x21a2bf[_0x5b8075(0x1af)]['createElement'](_0xbdd84e[_0x5b8075(0x1a8)],{'danger':!0x0,'onClick':_0x35593d=>_0xd01981('Clear')},'Clear'),_0x21a2bf[_0x16b82c(0x1cb)][_0x16b82c(0x1ec)](_0xbdd84e[_0x16b82c(0x1de)],{'type':'primary','style':{'margin':'0px 10px'},'onClick':_0x53b43f=>_0xd01981('Apply')},'Apply'))));}}var _0x2df4d0,_0x4758f2,[_0x2d7e14,_0x28290d]=(0x0,_0x21a2bf[_0x2ff191(0x1cc)])(!0x1),_0x22d047=()=>{var _0x4e513a=_0x2d74e9,_0x4b1e1b=_0x2ff191,_0x5ecefa=document[_0x4b1e1b(0x1f0)]('showTooltipButton'+_0x282b8a);if(_0x5ecefa&&_0x5ecefa){var _0x2bbaa5=_0x5ecefa[_0x4b1e1b(0x206)](),_0x4c5324=_0xcc7949?0x262:0x17c,_0x4951b0=window['innerWidth'],_0xd7ff7c=_0x2bbaa5[_0x4b1e1b(0x1ca)]+0xa,_0x374730=_0x2bbaa5[_0x4e513a(0x19d)]-_0x4c5324-0xa;_0x4951b0-_0x2bbaa5[_0x4b1e1b(0x1ca)]>=_0x4c5324?_0x26ee94({'left':_0xd7ff7c,'top':_0x2bbaa5[_0x4b1e1b(0x1f6)]}):_0x26ee94({'left':_0x374730,'top':_0x2bbaa5[_0x4b1e1b(0x1f6)]});}_0x28290d(!0x0);},_0x15667a=('MjAyNC0xMS0zMA==','MjAyNC0xMS0zMA==',_0x4758f2=(0x0,_0x3da63d[_0x2d74e9(0x1af)])(atob('MjAyNC0xMS0zMA=='),'YYYY-MM-DD'),_0x2df4d0=(0x0,_0x3da63d[_0x2ff191(0x1cb)])(),!_0x4758f2[_0x2ff191(0x1d2)](_0x2df4d0));class _0x363999 extends _0x21a2bf[_0x2d74e9(0x1bf)]{constructor(_0x37266f){var _0x5e41ba=_0x2d74e9;super(_0x37266f),this[_0x5e41ba(0x1a5)]();}['doSomethingBeforeRender'](){}[_0x2ff191(0x1cd)](){var _0x3770b2=_0x2d74e9,_0x1d0b37,_0x47d9d4=_0x2ff191;_0x1d0b37=_0x160097[0x0]['startDate']&&_0x160097[0x0][_0x47d9d4(0x1f3)]?(0x0,_0x3da63d[_0x47d9d4(0x1cb)])(new Date(_0x160097[0x0][_0x47d9d4(0x208)]))[_0x47d9d4(0x207)]('MMM DD, YYYY')+' - '+(0x0,_0x3da63d[_0x47d9d4(0x1cb)])(new Date(_0x160097[0x0][_0x3770b2(0x1b6)]))[_0x3770b2(0x1a4)]('MMM DD, YYYY'):_0x188a56||'Select Dates';var _0x59ce8e='auto'==_0x10f524?_0x10f524:_0x10f524+'px',_0x291007='auto'==_0x325737?_0x325737:0x0==_0x325737[_0x47d9d4(0x1d4)]?'230px':_0x325737+'px';return _0x21a2bf['default'][_0x3770b2(0x1a2)](_0x21a2bf[_0x47d9d4(0x1cb)][_0x3770b2(0x1a3)],null,0xc8==_0x5da3b8&&_0x15667a?_0x21a2bf[_0x47d9d4(0x1cb)][_0x47d9d4(0x1ec)](_0xbdd84e[_0x3770b2(0x1a8)],{'type':'primary','icon':_0x333ba9?_0x21a2bf[_0x47d9d4(0x1cb)][_0x47d9d4(0x1ec)](_0x12974a[_0x47d9d4(0x1cf)],{'rev':void 0x0}):_0x21a2bf[_0x47d9d4(0x1cb)][_0x47d9d4(0x1ec)](_0x21a2bf[_0x47d9d4(0x1cb)][_0x47d9d4(0x204)],null),'id':'showTooltipButton'+_0x282b8a,'style':{'margin':'10px 0px','padding':'4px 7px','height':_0x59ce8e,'width':_0x291007,'textAlign':'left'},'onClick':_0x22d047},_0x1d0b37):_0x21a2bf[_0x47d9d4(0x1cb)][_0x47d9d4(0x1ec)](_0x21a2bf[_0x47d9d4(0x1cb)][_0x47d9d4(0x204)],null));}}var _0x5c4526=document[_0x2ff191(0x1c9)]('[data-test="filter-bar"] > div:nth-of-type(2) > div:nth-of-type(2)');if(_0xa207fc){var _0x555f1d=document[_0x2d74e9(0x1a6)]('.dashboard-chart-id-'+_0x282b8a);if(_0x5c4526){var _0x58ed13=document[_0x2d74e9(0x1c6)]('calenderButton'+_0x282b8a);_0x58ed13&&_0x58ed13[_0x2ff191(0x1d9)]&&_0x58ed13[_0x2d74e9(0x1b9)][_0x2ff191(0x203)](_0x58ed13);var _0x5a1c44=document[_0x2ff191(0x1ec)]('div');_0x5a1c44[_0x2ff191(0x20a)][_0x2ff191(0x1fe)]='0px 15px';var _0xa2f123=document[_0x2ff191(0x1ec)]('h4');_0xa2f123[_0x2ff191(0x1c8)]('data-test','filter-control-name'),_0xa2f123[_0x2ff191(0x20a)][_0x2ff191(0x1dd)]='#323232',_0xa2f123[_0x2d74e9(0x1bb)][_0x2d74e9(0x1ac)]='12px',_0xa2f123[_0x2d74e9(0x1bb)][_0x2ff191(0x1f1)]='0',_0xa2f123[_0x2ff191(0x20a)][_0x2ff191(0x1f8)]='anywhere',_0xa2f123[_0x2d74e9(0x1a1)]=_0x6dc449,_0x5a1c44['id']='calenderButton'+_0x282b8a,_0x5c4526[_0x2d74e9(0x1b3)](_0x5a1c44),_0x9bc1fc['default'][_0x2d74e9(0x1c1)](_0x21a2bf[_0x2d74e9(0x1af)]['createElement'](_0x363999,null),_0x5a1c44),_0x5a1c44[_0x2ff191(0x1e2)](_0xa2f123),_0x555f1d[_0x2ff191(0x20a)][_0x2d74e9(0x1c2)]='block',_0x555f1d&&_0x25a01d&&(_0x555f1d[_0x2ff191(0x20a)][_0x2ff191(0x1e7)]='none');}else _0x555f1d&&(_0x555f1d[_0x2d74e9(0x1bb)][_0x2ff191(0x1e7)]='block');}return _0x21a2bf[_0x2ff191(0x1cb)][_0x2ff191(0x1ec)](_0x21a2bf[_0x2ff191(0x1cb)]['Fragment'],null,_0xa207fc&&_0x5c4526?_0x21a2bf[_0x2d74e9(0x1af)][_0x2ff191(0x1ec)](_0x21a2bf[_0x2ff191(0x1cb)][_0x2ff191(0x204)],null):_0x21a2bf[_0x2ff191(0x1cb)][_0x2d74e9(0x1a2)](_0x363999,null),_0x21a2bf['default'][_0x2ff191(0x1ec)](_0x541e79,{'className':'calender'+_0x282b8a,'title':null,'footer':null,'mask':!0x1,'visible':_0x2d7e14,'onOk':()=>{_0x28290d(!0x1);},'onCancel':()=>{_0x28290d(!0x1);},'style':{'position':'absolute','transition':'opacity 0.3s','top':_0x5c09a1[_0x2ff191(0x1f6)]+'px','left':_0x5c09a1['left']+'px','color':'white','background':'transparent','width':'fit-content'}},_0x21a2bf[_0x2d74e9(0x1af)][_0x2ff191(0x1ec)](_0x268baa,null,_0x21a2bf[_0x2d74e9(0x1af)][_0x2ff191(0x1ec)](_0x171daa,null))));};var _0x2d10db,_0x1f62c5,_0x21a2bf=function(_0x4022b1,_0x24d77a){var _0x3d4be5=a0_0x167b,_0x1aa74a=_0x1f2245;if(_0x4022b1&&_0x4022b1[_0x1aa74a(0x1e8)])return _0x4022b1;if(null===_0x4022b1||'object'!=typeof _0x4022b1&&'function'!=typeof _0x4022b1)return{'default':_0x4022b1};var _0x6da79b=_0x4ddac1(_0x24d77a);if(_0x6da79b&&_0x6da79b[_0x1aa74a(0x1fb)](_0x4022b1))return _0x6da79b[_0x1aa74a(0x1e5)](_0x4022b1);var _0x50da39={'__proto__':null},_0x165924=Object[_0x1aa74a(0x1d3)]&&Object[_0x1aa74a(0x1df)];for(var _0x38b0dc in _0x4022b1)if('default'!==_0x38b0dc&&Object[_0x1aa74a(0x209)][_0x1aa74a(0x1f7)]['call'](_0x4022b1,_0x38b0dc)){var _0x2b39f9=_0x165924?Object[_0x1aa74a(0x1df)](_0x4022b1,_0x38b0dc):null;_0x2b39f9&&(_0x2b39f9[_0x1aa74a(0x1e5)]||_0x2b39f9[_0x3d4be5(0x198)])?Object[_0x1aa74a(0x1d3)](_0x50da39,_0x38b0dc,_0x2b39f9):_0x50da39[_0x38b0dc]=_0x4022b1[_0x38b0dc];}return _0x50da39[_0x1aa74a(0x1cb)]=_0x4022b1,_0x6da79b&&_0x6da79b[_0x1aa74a(0x1fd)](_0x4022b1,_0x50da39),_0x50da39;}(_0x1babfd(0x2b1)),_0x275c52=_0x1babfd(0xb2),_0x253eae=_0x1babfd(0x17f),_0x3f35a2=_0x1babfd(0x50),_0x44bc10=_0x1babfd(0x130),_0x3da63d=_0x16ddf4(_0x1babfd(0xf5)),_0x12974a=_0x1babfd(0x42),_0x9bc1fc=_0x16ddf4(_0x1babfd(0x195)),_0xf702d=_0x1babfd(0x92),_0xbdd84e=_0x1babfd(0x2d5);function _0x16ddf4(_0x425961){return _0x425961&&_0x425961[_0x1f2245(0x1e8)]?_0x425961:{'default':_0x425961};}function _0x4ddac1(_0x2d4e4f){if('function'!=typeof WeakMap)return null;var _0x4bebc3=new WeakMap(),_0x2f63cb=new WeakMap();return(_0x4ddac1=function(_0x566d9d){return _0x566d9d?_0x2f63cb:_0x4bebc3;})(_0x2d4e4f);}function _0x85b555(_0x23ab84,_0x326f88){var _0x324d64=_0x1f2245;return!_0x326f88&&(_0x326f88=_0x23ab84[_0x324d64(0x1f4)](0x0)),_0x23ab84[_0x324d64(0x1e1)]=_0x326f88,_0x23ab84;}function _0x27eab8(_0x388abb,_0x1ba5fb){var _0x440767=_0x26dfd3();return(_0x27eab8=function(_0x17014d,_0xedd9bb){return _0x440767[_0x17014d-=0x1c5];})(_0x388abb,_0x1ba5fb);}var _0x2069ce='YYYY-MM-DD[T]HH:mm:ss',_0x268baa=_0x275c52[_0x2fa755(0x1a9)][_0x1f2245(0x1e6)](_0x2d10db||(_0x2d10db=_0x85b555(['\n    display: flex;\n    flex-direction: column;\n\n    .calender-modal{\n      width:fit-content;\n    }\n   \n\n  ','\n  ','\n'])),_0x3f35a2[_0x1f2245(0x1e9)],_0x253eae['defaultStyles']),_0x541e79=(0x0,_0x275c52['styled'])(_0xbdd84e[_0x1f2245(0x1e0)])(_0x1f62c5||(_0x1f62c5=_0x85b555(['\n  .ant-modal-content{\n    width:fit-content\n  }\n']))),{Option:_0x59f806}=_0xbdd84e[_0x1f2245(0x1ff)],_0x23e799={'TimeGrain.SECOND':'PT1S','TimeGrain.MINUTE':'PT1M','TimeGrain.FIVE_MINUTES':'PT5M','TimeGrain.TEN_MINUTES':'PT10M','TimeGrain.FIFTEEN_MINUTES':'PT15M','TimeGrain.THIRTY_MINUTES':'PT30M','TimeGrain.HOUR':'PT1H','TimeGrain.DAY':'P1D','TimeGrain.WEEK':'P1W','TimeGrain.MONTH':'P1M','TimeGrain.QUARTER':'P3M','TimeGrain.YEAR':'P1Y','TimeGrain.WEEK_STARTING_MONDAY':'1969-12-28T00:00:00Z/P1W'},_0x5727f9={'TimeGrain.SECOND':'Second','TimeGrain.MINUTE':'Minute','TimeGrain.FIVE_MINUTES':'5 minute','TimeGrain.TEN_MINUTES':'10 minute','TimeGrain.FIFTEEN_MINUTES':'15 minute','TimeGrain.THIRTY_MINUTES':'30 minute','TimeGrain.HOUR':'Hour','TimeGrain.DAY':'Day','TimeGrain.WEEK':'Week','TimeGrain.MONTH':'Month','TimeGrain.QUARTER':'Quarter','TimeGrain.YEAR':'Year','TimeGrain.WEEK_STARTING_MONDAY':'Week starting Monday'};},0x79:(_0x5d54c6,_0x561af,_0x34ee3d)=>{var _0x31096c=a0_0x167b,_0x31e01d=_0x175b19;function _0x175b19(_0x2cf548,_0x481937){var _0x3fa0a1=_0x3558e3();return(_0x175b19=function(_0x3e3db7,_0x1a52d1){return _0x3fa0a1[_0x3e3db7-=0x70];})(_0x2cf548,_0x481937);}function _0x3558e3(){var _0x65d0bf=['default','4597782lTggax','138968mjyDKd','651112bvJQrh','489908cwLqNH','5023044ziSnOz','65658QStPwm','CalendarPicker','4397735YJbukz'];return(_0x3558e3=function(){return _0x65d0bf;})();}!function(_0x360044,_0x15c532){var _0x127a65=a0_0x167b;for(var _0x37d40f=_0x175b19,_0x2e15b5=_0x360044();;)try{if(0x95b52==parseInt(_0x37d40f(0x70))/0x1+-parseInt(_0x37d40f(0x71))/0x2+-parseInt(_0x37d40f(0x74))/0x3+parseInt(_0x37d40f(0x72))/0x4+parseInt(_0x37d40f(0x76))/0x5+-parseInt(_0x37d40f(0x73))/0x6+parseInt(_0x37d40f(0x78))/0x7)break;_0x2e15b5[_0x127a65(0x1c4)](_0x2e15b5[_0x127a65(0x19b)]());}catch(_0x38c762){_0x2e15b5[_0x127a65(0x1c4)](_0x2e15b5['shift']());}}(_0x3558e3),_0x561af[_0x31096c(0x1ba)]=!0x0,_0x561af[_0x31096c(0x1bd)]=void 0x0;var _0x4b959a,_0x927c55=(_0x4b959a=_0x34ee3d(0x2aa))&&_0x4b959a[_0x31096c(0x1ba)]?_0x4b959a:{'default':_0x4b959a};_0x561af[_0x31e01d(0x75)]=_0x927c55[_0x31e01d(0x77)];},0xee:(_0x444885,_0x51ad25,_0x3b976c)=>{var _0x47b371=_0x2aa8c3;function _0x2aa8c3(_0x3ade32,_0x593432){var _0x39dcb3=_0xb86c8a();return(_0x2aa8c3=function(_0xee213f,_0x4d5e37){return _0x39dcb3[_0xee213f-=0x146];})(_0x3ade32,_0x593432);}function _0xb86c8a(){var _0x5a03d1=['buildQueryContext','1436183xBcUoG','30eTefEU','8OpKTOo','2179670TXXpnd','2843766HeiqGQ','2MoSDiP','1625720DaPDRx','78485jcJrrY','__esModule','438498QGKINp','time_grain_sqla','default','1235238cBRyGb'];return(_0xb86c8a=function(){return _0x5a03d1;})();}!function(_0x47f194,_0x60ca36){var _0x263d2f=a0_0x167b;for(var _0x1b1944=_0x2aa8c3,_0x463452=_0x47f194();;)try{if(0x37873==-parseInt(_0x1b1944(0x14d))/0x1*(parseInt(_0x1b1944(0x14b))/0x2)+parseInt(_0x1b1944(0x152))/0x3+-parseInt(_0x1b1944(0x14c))/0x4+parseInt(_0x1b1944(0x147))/0x5*(-parseInt(_0x1b1944(0x14f))/0x6)+parseInt(_0x1b1944(0x146))/0x7*(parseInt(_0x1b1944(0x148))/0x8)+parseInt(_0x1b1944(0x14a))/0x9+parseInt(_0x1b1944(0x149))/0xa)break;_0x463452['push'](_0x463452[_0x263d2f(0x19b)]());}catch(_0x20f563){_0x463452[_0x263d2f(0x1c4)](_0x463452['shift']());}}(_0xb86c8a),_0x51ad25[_0x47b371(0x14e)]=!0x0,_0x51ad25[_0x47b371(0x151)]=function(_0x4fafc2){var _0x181e4a=_0x47b371;return(0x0,_0x103b0a[_0x181e4a(0x153)])(_0x4fafc2,{'queryFields':{'cols':'columns','time_grain_sqla':_0x4fafc2[_0x181e4a(0x150)]}});};var _0x103b0a=_0x3b976c(0xb2);},0xff:(_0xc55b86,_0x1500be,_0x4b1500)=>{var _0x1d728d=a0_0x167b;function _0x3c8f47(_0x24e50e,_0xf0eaa0){var _0x2d823d=_0x150782();return(_0x3c8f47=function(_0x26ceee,_0x3b780b){return _0x2d823d[_0x26ceee-=0x1e3];})(_0x24e50e,_0xf0eaa0);}var _0x139f0d=_0x3c8f47;!function(_0x5b6a8c,_0x38f596){var _0x21d542=a0_0x167b;for(var _0x372c8a=_0x3c8f47,_0x4c61bf=_0x5b6a8c();;)try{if(0xe4540==-parseInt(_0x372c8a(0x1f6))/0x1*(-parseInt(_0x372c8a(0x1f1))/0x2)+-parseInt(_0x372c8a(0x1e6))/0x3+parseInt(_0x372c8a(0x1f4))/0x4*(parseInt(_0x372c8a(0x1ea))/0x5)+-parseInt(_0x372c8a(0x1f3))/0x6+parseInt(_0x372c8a(0x200))/0x7+-parseInt(_0x372c8a(0x1ec))/0x8*(-parseInt(_0x372c8a(0x1f7))/0x9)+parseInt(_0x372c8a(0x1e8))/0xa*(parseInt(_0x372c8a(0x1fc))/0xb))break;_0x4c61bf[_0x21d542(0x1c4)](_0x4c61bf['shift']());}catch(_0x378826){_0x4c61bf[_0x21d542(0x1c4)](_0x4c61bf[_0x21d542(0x19b)]());}}(_0x150782),_0x1500be[_0x139f0d(0x1eb)]=!0x0,_0x1500be[_0x139f0d(0x1fb)]=void 0x0;var _0x59781d,_0x4d805c,_0x11399e,_0x258700,_0x505d03=_0x4b1500(0xb2),_0x495108=_0x4b1500(0x2e1),_0x1a60a7=(_0x258700=_0x4b1500(0x2b1))&&_0x258700[_0x139f0d(0x1eb)]?_0x258700:{'default':_0x258700};function _0x150782(){var _0xe46a25=['66kOrKud','length','span','apply','4035241GvbnQz','showInNativeFilter','value','styled','call','2404584FGOnKd','createElement','919970fjoICp','raw','250445TuTZKx','__esModule','8ttjjad','assign','validateNonEmpty','showTimegrain','row_limit','2qhJNBQ','bind','10950432kuKStd','136vuaqWM','slice','428878sLrLTr','2713347ktwVAv','sharedControls','div','entity','default'];return(_0x150782=function(){return _0xe46a25;})();}function _0x7af28d(_0x50c5d1,_0x1bca31){var _0x515661=_0x139f0d;return!_0x1bca31&&(_0x1bca31=_0x50c5d1[_0x515661(0x1f5)](0x0)),_0x50c5d1[_0x515661(0x1e9)]=_0x1bca31,_0x50c5d1;}function _0x51d1c3(){var _0x2f7b01=_0x139f0d;return _0x51d1c3=Object[_0x2f7b01(0x1ed)]?Object[_0x2f7b01(0x1ed)][_0x2f7b01(0x1f2)]():function(_0x30ecef){var _0x3b0797=a0_0x167b;for(var _0x2110cc=_0x2f7b01,_0x52e919=0x1;_0x52e919<arguments[_0x2110cc(0x1fd)];_0x52e919++){var _0x338cff=arguments[_0x52e919];for(var _0x4e7df8 in _0x338cff)Object[_0x3b0797(0x1b1)][_0x3b0797(0x1b7)][_0x2110cc(0x1e5)](_0x338cff,_0x4e7df8)&&(_0x30ecef[_0x4e7df8]=_0x338cff[_0x4e7df8]);}return _0x30ecef;},_0x51d1c3[_0x2f7b01(0x1ff)](this,arguments);}var _0x4ee72c=_0x51d1c3({},_0x495108[_0x139f0d(0x1f8)][_0x139f0d(0x1fa)],{'clearable':!0x0,'validators':[]}),_0x369ccb=_0x505d03[_0x1d728d(0x1a9)][_0x139f0d(0x1f9)](_0x59781d||(_0x59781d=_0x7af28d(['\nbackground: linear-gradient(135deg, #b5d2d836, #d0f5fc47);\n  padding: 20px;\n  border-radius: 5px;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  max-width: 300px;\n  margin: 0 auto;\n  color: #333; /* Text color */\n']))),_0x1a9132=_0x505d03[_0x139f0d(0x1e4)][_0x139f0d(0x1fe)](_0x4d805c||(_0x4d805c=_0x7af28d(['\n  font-weight: bold;\n']))),_0xda00f5=_0x505d03[_0x139f0d(0x1e4)][_0x1d728d(0x199)](_0x11399e||(_0x11399e=_0x7af28d(['\nfont-weight: 600;\nfont-size: 12;\nmargin-bottom: 4px;\n']))),_0x3c0798={'controlPanelSections':[{'label':(0x0,_0x505d03['t'])('Query'),'expanded':!0x0,'controlSetRows':[[{'name':'cols','config':_0x51d1c3({},_0x4ee72c,{'label':(0x0,_0x505d03['t'])('Date Field'),'description':(0x0,_0x505d03['t'])('Add Date field to filter'),'validators':[_0x505d03[_0x139f0d(0x1ee)]]})}],['adhoc_filters'],[{'name':'row_limit','config':_0x495108[_0x139f0d(0x1f8)][_0x139f0d(0x1f0)]}]]},{'label':(0x0,_0x505d03['t'])('Chart Options'),'expanded':!0x0,'controlSetRows':[[{'name':'defaultButtonText','config':{'type':'TextControl','default':'Select Dates','renderTrigger':!0x0,'label':(0x0,_0x505d03['t'])('Default Button Text'),'description':(0x0,_0x505d03['t'])('Default Button Value')}}],[{'name':'LastDays','config':{'type':'TextControl','default':'','renderTrigger':!0x0,'label':(0x0,_0x505d03['t'])('Default Last Days Selection'),'description':(0x0,_0x505d03['t'])('Eg: Add 7 to select Last 7 Days')}}],[{'name':'showTimegrain','config':{'type':'CheckboxControl','label':(0x0,_0x505d03['t'])('Show Timegrain'),'renderTrigger':!0x0,'default':!0x0,'description':(0x0,_0x505d03['t'])('Show/Hide Timegrain Option')}}],[{'name':'defaultTimeGrain','config':{'type':'SelectControl','label':(0x0,_0x505d03['t'])('Default Time Grain'),'default':'None','renderTrigger':!0x0,'choices':[['TimeGrain.SECOND',(0x0,_0x505d03['t'])('Second')],['TimeGrain.MINUTE',(0x0,_0x505d03['t'])('Minute')],['TimeGrain.FIVE_MINUTES',(0x0,_0x505d03['t'])('5 minute')],['TimeGrain.TEN_MINUTES',(0x0,_0x505d03['t'])('10 minute')],['TimeGrain.FIFTEEN_MINUTES',(0x0,_0x505d03['t'])('15 minute')],['TimeGrain.THIRTY_MINUTES',(0x0,_0x505d03['t'])('30 minute')],['TimeGrain.HOUR',(0x0,_0x505d03['t'])('Hour')],['TimeGrain.DAY',(0x0,_0x505d03['t'])('Day')],['TimeGrain.WEEK',(0x0,_0x505d03['t'])('Week')],['TimeGrain.MONTH',(0x0,_0x505d03['t'])('Month')],['TimeGrain.QUARTER',(0x0,_0x505d03['t'])('Quarter')],['TimeGrain.YEAR',(0x0,_0x505d03['t'])('Year')],['TimeGrain.WEEK_STARTING_MONDAY',(0x0,_0x505d03['t'])('Week starting Monday')]],'description':(0x0,_0x505d03['t'])('Select the Default Time Grain'),'visibility':_0x1b64c7=>{var _0x4f5504=_0x139f0d,{controls:_0x4cea2f}=_0x1b64c7;return!!_0x4cea2f[_0x4f5504(0x1ef)][_0x4f5504(0x1e3)];}}}],[{'name':'weekStartsOn','config':{'type':'SelectControl','label':(0x0,_0x505d03['t'])('Week Starts On'),'default':0x0,'renderTrigger':!0x0,'choices':[[0x0,(0x0,_0x505d03['t'])('Sunday')],[0x1,(0x0,_0x505d03['t'])('Monday')],[0x2,(0x0,_0x505d03['t'])('Tuesday')],[0x3,(0x0,_0x505d03['t'])('Wednesday')],[0x4,(0x0,_0x505d03['t'])('Thurday')],[0x5,(0x0,_0x505d03['t'])('Friday')],[0x6,(0x0,_0x505d03['t'])('Saturday')]],'description':(0x0,_0x505d03['t'])('Week Starts On')}}],[{'name':'showCalenderIcon','config':{'type':'CheckboxControl','label':(0x0,_0x505d03['t'])('Show Calendar Icon'),'renderTrigger':!0x0,'default':!0x0,'description':(0x0,_0x505d03['t'])('Show/Hide Calendar icon in button')}}],[{'name':'showPresets','config':{'type':'CheckboxControl','label':(0x0,_0x505d03['t'])('show Presets'),'renderTrigger':!0x0,'default':!0x1,'description':(0x0,_0x505d03['t'])('show Presets to select dates')}}],[{'name':'popupPresist','config':{'type':'CheckboxControl','label':(0x0,_0x505d03['t'])('Persist Popup After Clear & Apply'),'renderTrigger':!0x0,'default':!0x0,'description':(0x0,_0x505d03['t'])('Persist Popup After Clear & Apply')}}],[{'name':'showInNativeFilter','config':{'type':'CheckboxControl','label':(0x0,_0x505d03['t'])('Show in Native Filter'),'renderTrigger':!0x0,'default':!0x1,'description':(0x0,_0x505d03['t'])('Enable to add filter button in native filter')}}],[{'name':'showInNativeFilterLabel','config':{'type':'TextControl','default':'Calendar','renderTrigger':!0x0,'label':(0x0,_0x505d03['t'])('FILTER NAME'),'description':(0x0,_0x505d03['t'])('Add text to show as a title of the filter'),'visibility':_0x448cd6=>{var _0x1c15d8=_0x139f0d,{controls:_0x684f27}=_0x448cd6;return!!_0x684f27[_0x1c15d8(0x201)][_0x1c15d8(0x1e3)];}}}],[{'name':'HideonViewMode','config':{'type':'CheckboxControl','label':(0x0,_0x505d03['t'])('Hide on View Mode'),'renderTrigger':!0x0,'default':!0x1,'description':(0x0,_0x505d03['t'])('Hidding the chart on View mode'),'visibility':_0xb72b0e=>{var {controls:_0x46edb4}=_0xb72b0e;return!0x1;}}}]]},{'label':(0x0,_0x505d03['t'])('Appearance'),'expanded':!0x0,'controlSetRows':[[_0x1a60a7[_0x139f0d(0x1fb)][_0x139f0d(0x1e7)](_0xda00f5,null,(0x0,_0x505d03['t'])('Button'))],[{'name':'button_width','config':{'type':'TextControl','default':'230','renderTrigger':!0x0,'label':(0x0,_0x505d03['t'])('Width (px)'),'description':(0x0,_0x505d03['t'])('This Option will help you to customize button width')}},{'name':'button_height','config':{'type':'TextControl','default':'35','renderTrigger':!0x0,'label':(0x0,_0x505d03['t'])('Height (px)'),'description':(0x0,_0x505d03['t'])('This Option will help you to customize button height')}}]]},{'label':(0x0,_0x505d03['t'])('License'),'expanded':!0x1,'controlSetRows':[[_0x1a60a7[_0x139f0d(0x1fb)][_0x139f0d(0x1e7)](()=>{var _0x14a12b=_0x1d728d,_0x1d14ad=_0x139f0d;return _0x1a60a7[_0x1d14ad(0x1fb)][_0x1d14ad(0x1e7)](_0x369ccb,null,_0x1a60a7[_0x1d14ad(0x1fb)][_0x1d14ad(0x1e7)]('h4',null,'License Information'),_0x1a60a7[_0x1d14ad(0x1fb)][_0x1d14ad(0x1e7)]('div',{'className':'info-item'},_0x1a60a7[_0x1d14ad(0x1fb)][_0x1d14ad(0x1e7)](_0x1a9132,null,'License Holder:'),_0x1a60a7[_0x1d14ad(0x1fb)]['createElement']('span',null,'TenWeb, Inc.')),_0x1a60a7[_0x1d14ad(0x1fb)][_0x1d14ad(0x1e7)]('div',{'className':'info-item'},_0x1a60a7[_0x14a12b(0x1af)][_0x1d14ad(0x1e7)](_0x1a9132,null,'Expiry Date:'),_0x1a60a7[_0x1d14ad(0x1fb)][_0x1d14ad(0x1e7)]('span',null,' 30-11-2024')),_0x1a60a7[_0x14a12b(0x1af)][_0x1d14ad(0x1e7)]('div',{'className':'info-item'},_0x1a60a7[_0x1d14ad(0x1fb)][_0x1d14ad(0x1e7)](_0x1a9132,null,'Version:'),_0x1a60a7[_0x14a12b(0x1af)][_0x1d14ad(0x1e7)]('span',null,' 0.1.6')));},null)]]}]};_0x1500be[_0x139f0d(0x1fb)]=_0x3c0798;},0x2aa:(_0x5b463c,_0x5bbb44,_0x57f4ad)=>{var _0x59504f=a0_0x167b,_0x380f10=_0x4e7fa2;!function(_0xd35d81,_0xc96cc4){var _0xd61878=a0_0x167b;for(var _0x4be12f=_0x4e7fa2,_0x534642=_0xd35d81();;)try{if(0xac8d0==-parseInt(_0x4be12f(0xab))/0x1*(-parseInt(_0x4be12f(0xb1))/0x2)+-parseInt(_0x4be12f(0xb4))/0x3+parseInt(_0x4be12f(0xb3))/0x4+parseInt(_0x4be12f(0xb9))/0x5*(-parseInt(_0x4be12f(0xa9))/0x6)+-parseInt(_0x4be12f(0xb2))/0x7*(-parseInt(_0x4be12f(0xa0))/0x8)+-parseInt(_0x4be12f(0xb8))/0x9*(parseInt(_0x4be12f(0xb5))/0xa)+-parseInt(_0x4be12f(0xa3))/0xb)break;_0x534642[_0xd61878(0x1c4)](_0x534642['shift']());}catch(_0x293c75){_0x534642[_0xd61878(0x1c4)](_0x534642[_0xd61878(0x19b)]());}}(_0x1b60bc),_0x5bbb44[_0x380f10(0xa7)]=!0x0,_0x5bbb44[_0x59504f(0x1af)]=void 0x0;var _0xe6e60f=_0x57f4ad(0xb2),_0x5d4da1=_0x57e03b(_0x57f4ad(0xee)),_0x19aee0=_0x57e03b(_0x57f4ad(0xff)),_0x3e5c42=_0x57e03b(_0x57f4ad(0xa1));function _0x57e03b(_0x2a9573){return _0x2a9573&&_0x2a9573['__esModule']?_0x2a9573:{'default':_0x2a9573};}function _0x1b60bc(){var _0xd8a39=['resolve','132786dbLwnj','call','823409DChXSp','ChartMetadata','getOwnPropertyDescriptor','hasOwnProperty','ChartPlugin','default','2fuMDri','14StxiJI','188096IPHbow','279612NQaoAc','615610ZUtYEH','Behavior','InteractiveChart','18Nkqmzk','45cADIDo','4700968rDCKHB','get','set','10157422VNKjYJ','defineProperty','has','prototype','__esModule'];return(_0x1b60bc=function(){return _0xd8a39;})();}function _0x6c260d(_0xd69d29){if('function'!=typeof WeakMap)return null;var _0x41d60b=new WeakMap(),_0x5d0afb=new WeakMap();return(_0x6c260d=function(_0x497c1f){return _0x497c1f?_0x5d0afb:_0x41d60b;})(_0xd69d29);}function _0x4e7fa2(_0x5b2c24,_0x7092f6){var _0x454308=_0x1b60bc();return(_0x4e7fa2=function(_0x526eba,_0x327465){return _0x454308[_0x526eba-=0xa0];})(_0x5b2c24,_0x7092f6);}class _0x187895 extends _0xe6e60f[_0x380f10(0xaf)]{constructor(){var _0x19a5e1=_0x59504f,_0x2c6e6f=_0x380f10,_0x3e3d4c=new _0xe6e60f[(_0x2c6e6f(0xac))]({'description':'Calendar Picker','name':(0x0,_0xe6e60f['t'])('Calendar Picker'),'behaviors':[_0xe6e60f[_0x2c6e6f(0xb6)][_0x2c6e6f(0xb7)]],'thumbnail':'data:image/png;base64,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'});super({'buildQuery':_0x5d4da1[_0x2c6e6f(0xb0)],'controlPanel':_0x19aee0[_0x2c6e6f(0xb0)],'loadChart':()=>Promise[_0x2c6e6f(0xa8)]()[_0x19a5e1(0x1a7)](()=>function(_0x109123,_0x54ef1c){var _0x23ccc5=_0x19a5e1,_0x4da3d1=_0x380f10;if(_0x109123&&_0x109123[_0x4da3d1(0xa7)])return _0x109123;if(null===_0x109123||'object'!=typeof _0x109123&&'function'!=typeof _0x109123)return{'default':_0x109123};var _0x2bf4a7=_0x6c260d(_0x54ef1c);if(_0x2bf4a7&&_0x2bf4a7[_0x4da3d1(0xa5)](_0x109123))return _0x2bf4a7[_0x4da3d1(0xa1)](_0x109123);var _0x3b7b79={'__proto__':null},_0x583c03=Object[_0x4da3d1(0xa4)]&&Object[_0x4da3d1(0xad)];for(var _0x1febbe in _0x109123)if('default'!==_0x1febbe&&Object[_0x4da3d1(0xa6)][_0x4da3d1(0xae)][_0x4da3d1(0xaa)](_0x109123,_0x1febbe)){var _0x1aa876=_0x583c03?Object[_0x4da3d1(0xad)](_0x109123,_0x1febbe):null;_0x1aa876&&(_0x1aa876[_0x4da3d1(0xa1)]||_0x1aa876[_0x23ccc5(0x198)])?Object[_0x23ccc5(0x19a)](_0x3b7b79,_0x1febbe,_0x1aa876):_0x3b7b79[_0x1febbe]=_0x109123[_0x1febbe];}return _0x3b7b79[_0x23ccc5(0x1af)]=_0x109123,_0x2bf4a7&&_0x2bf4a7[_0x4da3d1(0xa2)](_0x109123,_0x3b7b79),_0x3b7b79;}(_0x57f4ad(0x1af))),'metadata':_0x3e3d4c,'transformProps':_0x3e5c42[_0x19a5e1(0x1af)]});}}_0x5bbb44['default']=_0x187895;},0xa1:(_0x3cb8e7,_0x121597,_0x3e2a07)=>{function _0x3485a4(){var _0xe57b3c=['40qfWEgb','rawDatasource','10mSWfLT','data','default','25076ROFMGW','141WUXsFx','2613760mIRACL','900945egPLgE','__esModule','11FAcKFV','3198996HVXehO','772408IOPyxQ','subDays','30QSrhoe','21338ylHKPa','22852740uCcnPr','log'];return(_0x3485a4=function(){return _0xe57b3c;})();}function _0xc7b3a3(_0x5dcb16,_0x6abcfb){var _0x350092=_0x3485a4();return(_0xc7b3a3=function(_0x56ad6f,_0x450f1b){return _0x350092[_0x56ad6f-=0x1e2];})(_0x5dcb16,_0x6abcfb);}var _0x1d6370=_0xc7b3a3;!function(_0x236a98,_0xfc67f1){var _0x109822=a0_0x167b;for(var _0x1b3e16=_0xc7b3a3,_0x1397fa=_0x236a98();;)try{if(0x62d9b==parseInt(_0x1b3e16(0x1e7))/0x1*(parseInt(_0x1b3e16(0x1ec))/0x2)+parseInt(_0x1b3e16(0x1f0))/0x3*(parseInt(_0x1b3e16(0x1ef))/0x4)+parseInt(_0x1b3e16(0x1f1))/0x5+parseInt(_0x1b3e16(0x1e3))/0x6+-parseInt(_0x1b3e16(0x1e4))/0x7*(-parseInt(_0x1b3e16(0x1ea))/0x8)+-parseInt(_0x1b3e16(0x1f2))/0x9*(-parseInt(_0x1b3e16(0x1e6))/0xa)+parseInt(_0x1b3e16(0x1e2))/0xb*(-parseInt(_0x1b3e16(0x1e8))/0xc))break;_0x1397fa[_0x109822(0x1c4)](_0x1397fa[_0x109822(0x19b)]());}catch(_0x3d51cc){_0x1397fa['push'](_0x1397fa['shift']());}}(_0x3485a4),_0x121597[_0x1d6370(0x1f3)]=!0x0,_0x121597[_0x1d6370(0x1ee)]=function(_0x44ef49){var _0x1ddb70=_0x1d6370,{width:_0x325fb2,height:_0x2e53a2,formData:_0x492ead,queriesData:_0x2ef13a,hooks:_0xb6a15f}=_0x44ef49,{buttonHeight:_0x481fe8,buttonWidth:_0x3295f0,popupPresist:_0x620997,defaultButtonText:_0x52b7a3,showPresets:_0x5115bb,cols:_0x51f5a1,lastDays:_0x3aac65,showTimegrain:_0x505e65,defaultTimeGrain:_0x3a6219,HideonViewMode:_0x47170a,sliceId:_0x54e4ee,weekStartsOn:_0x2c3947,showCalenderIcon:_0x4c63b1,showInNativeFilter:_0x47bf84,showInNativeFilterLabel:_0x568779}=_0x492ead,_0x530213=_0x2ef13a[0x0][_0x1ddb70(0x1ed)],{onContextMenu:_0x24c295,setDataMask:_0x301041}=_0xb6a15f,_0x3451fa=_0x44ef49[_0x1ddb70(0x1eb)]['time_grain_sqla'],_0x123567=Number(_0x3aac65),_0x253e1c=new Date(),_0x5d9b43=(0x0,_0x436ec8[_0x1ddb70(0x1e5)])(_0x253e1c,_0x123567),_0x582930=new Date();return console[_0x1ddb70(0x1e9)](_0x44ef49),{'width':_0x325fb2,'height':_0x2e53a2,'data':_0x530213,'buttonHeight':_0x481fe8,'buttonWidth':_0x3295f0,'popupPresist':_0x620997,'defaultButtonText':_0x52b7a3,'showPresets':_0x5115bb,'cols':_0x51f5a1,'defaultStartDate':_0x5d9b43,'defaultEndDate':_0x582930,'nDaysAgo':_0x123567,'showTimegrain':_0x505e65,'defaultTimeGrain':_0x3a6219,'showInNativeFilter':_0x47bf84,'showInNativeFilterLabel':_0x568779,'sliceId':_0x54e4ee,'status':0xc8,'weekStartsOn':_0x2c3947,'showCalenderIcon':_0x4c63b1,'onContextMenu':_0x24c295,'timeGrainSqla':_0x3451fa,'HideonViewMode':_0x47170a,'setDataMask':_0x301041};};var _0x436ec8=_0x3e2a07(0x92);},0x50:(_0x2b52d7,_0x121580,_0x4172eb)=>{var _0x4b7157=a0_0x167b,_0x3c322a=_0x2bbdec;function _0x4a5a29(){var _0x57eb8d=['11VTgvuf','css','raw','1569063WehJOf','1221432TmAwjL','5616840MGHVKF','36KmekiK','270792avFTTA','40bmcIAW','slice','customStyles','20LBWMYZ','11805899orTowW','3032325YyDZJz','6421712BdQlQY','8YhHvfk'];return(_0x4a5a29=function(){return _0x57eb8d;})();}!function(_0x49f844,_0x39bc4b){var _0x430477=a0_0x167b;for(var _0x15ce36=_0x2bbdec,_0x30e87f=_0x49f844();;)try{if(0xee4aa==-parseInt(_0x15ce36(0x1bf))/0x1+-parseInt(_0x15ce36(0x1c3))/0x2*(-parseInt(_0x15ce36(0x1c2))/0x3)+parseInt(_0x15ce36(0x1ba))/0x4+-parseInt(_0x15ce36(0x1b7))/0x5*(parseInt(_0x15ce36(0x1c0))/0x6)+parseInt(_0x15ce36(0x1b8))/0x7*(-parseInt(_0x15ce36(0x1bb))/0x8)+parseInt(_0x15ce36(0x1b9))/0x9*(parseInt(_0x15ce36(0x1c4))/0xa)+parseInt(_0x15ce36(0x1bc))/0xb*(parseInt(_0x15ce36(0x1c1))/0xc))break;_0x30e87f[_0x430477(0x1c4)](_0x30e87f['shift']());}catch(_0x5667a5){_0x30e87f['push'](_0x30e87f[_0x430477(0x19b)]());}}(_0x4a5a29),_0x121580[_0x4b7157(0x1ba)]=!0x0,_0x121580[_0x3c322a(0x1c6)]=void 0x0;var _0x2edd79,_0x132ffc,_0x5bedf5,_0x1341ce,_0x1cebbd=_0x4172eb(0x325);function _0x2bbdec(_0x11c844,_0x221d47){var _0x1201d2=_0x4a5a29();return(_0x2bbdec=function(_0x34cfaf,_0x4a62eb){return _0x1201d2[_0x34cfaf-=0x1b7];})(_0x11c844,_0x221d47);}_0x121580[_0x3c322a(0x1c6)]=(0x0,_0x1cebbd[_0x3c322a(0x1bd)])(_0x2edd79||(_0x132ffc=['\n  \n\n.rdrCalendarWrapper {\n  box-sizing: border-box;\n  background: #ffffff;\n  display: inline-flex;\n  flex-direction: column;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.rdrDateDisplay{\n  display: flex;\n  justify-content: space-between;\n}\n\n.rdrDateDisplayItem{\n  flex: 1 1;\n  width: 0;\n  text-align: center;\n  color: inherit;\n}\n\n.rdrDateDisplayItem + .rdrDateDisplayItem{\n    margin-left: 0.833em;\n  }\n\n.rdrDateDisplayItem input{\n    text-align: inherit\n  }\n\n.rdrDateDisplayItem input:disabled{\n      cursor: default;\n    }\n\n.rdrDateDisplayItemActive{}\n\n.rdrMonthAndYearWrapper {\n  box-sizing: inherit;\n  display: flex;\n  justify-content: space-between;\n}\n\n.rdrMonthAndYearPickers{\n  flex: 1 1 auto;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.rdrMonthPicker{}\n\n.rdrYearPicker{}\n\n.rdrNextPrevButton {\n  box-sizing: inherit;\n  cursor: pointer;\n  outline: none;\n}\n\n.rdrPprevButton {}\n\n.rdrNextButton {}\n\n.rdrMonths{\n  display: flex;\n}\n\n.rdrMonthsVertical{\n  flex-direction: column;\n}\n\n.rdrMonthsHorizontal > div > div > div{\n  display: flex;\n  flex-direction: row;\n}\n\n.rdrMonth{\n  width: 27.667em;\n}\n\n.rdrWeekDays{\n  display: flex;\n}\n\n.rdrWeekDay {\n  flex-basis: calc(100% / 7);\n  box-sizing: inherit;\n  text-align: center;\n}\n\n.rdrDays{\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.rdrDateDisplayWrapper{}\n\n.rdrMonthName{}\n\n.rdrInfiniteMonths{\n  overflow: auto;\n}\n\n.rdrDateRangeWrapper{\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.rdrDateInput {\n  position: relative;\n}\n\n.rdrDateInput input {\n    outline: none;\n  }\n\n.rdrDateInput .rdrWarning {\n    position: absolute;\n    font-size: 1.6em;\n    line-height: 1.6em;\n    top: 0;\n    right: .25em;\n    color: #FF0000;\n  }\n\n.rdrDay {\n  box-sizing: inherit;\n  width: calc(100% / 7);\n  position: relative;\n  font: inherit;\n  cursor: pointer;\n}\n\n.rdrDayNumber {\n  display: block;\n  position: relative;\n}\n\n.rdrDayNumber span{\n    color: #1d2429;\n  }\n\n.rdrDayDisabled {\n  cursor: not-allowed;\n}\n\n@supports (-ms-ime-align: auto) {\n  .rdrDay {\n    flex-basis: 14.285% !important;\n  }\n}\n\n.rdrSelected, .rdrInRange, .rdrStartEdge, .rdrEndEdge{\n  pointer-events: none;\n}\n\n.rdrInRange{}\n\n.rdrDayStartPreview, .rdrDayInPreview, .rdrDayEndPreview{\n  pointer-events: none;\n}\n\n.rdrDayHovered{}\n\n.rdrDayActive{}\n\n.rdrDateRangePickerWrapper{\n  display: inline-flex;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.rdrDefinedRangesWrapper{}\n\n.rdrStaticRanges{\n  display: flex;\n  flex-direction: column;\n  height: 350px;\n}\n\n.rdrStaticRange{\n  font-size: inherit;\n}\n\n.rdrStaticRangeLabel{}\n\n.rdrInputRanges{}\n\n.rdrInputRange{\n  display: flex;\n}\n\n.rdrInputRangeInput{}\n\n'],_0x1341ce=_0x3c322a,!_0x5bedf5&&(_0x5bedf5=_0x132ffc[_0x1341ce(0x1c5)](0x0)),_0x132ffc[_0x1341ce(0x1be)]=_0x5bedf5,_0x2edd79=_0x132ffc));},0x17f:(_0x544d0d,_0x40d70d,_0x27daf0)=>{var _0x183854=a0_0x167b,_0x237497=_0x291dd8;function _0x291dd8(_0x146f1e,_0x540cc8){var _0x5d87c6=_0x195c0a();return(_0x291dd8=function(_0x183faf,_0x34fe81){return _0x5d87c6[_0x183faf-=0x1f3];})(_0x146f1e,_0x540cc8);}function _0x195c0a(){var _0x52e2f5=['35OjafzU','56862FDrOSh','420TUkzrP','6144649RCtNGH','352540vzWpRt','3784072huRuOm','10oeSCel','raw','6384708AChwCB','47546lGsylw','18VNISxV','slice','defaultStyles','css','13811501ILZyza'];return(_0x195c0a=function(){return _0x52e2f5;})();}!function(_0x25d10d,_0x42fcbf){var _0x55d321=a0_0x167b;for(var _0x4d7c91=_0x291dd8,_0x3ceb2f=_0x25d10d();;)try{if(0x7085c==parseInt(_0x4d7c91(0x1ff))/0x1*(-parseInt(_0x4d7c91(0x1f9))/0x2)+parseInt(_0x4d7c91(0x1fa))/0x3*(parseInt(_0x4d7c91(0x1f4))/0x4)+-parseInt(_0x4d7c91(0x201))/0x5*(parseInt(_0x4d7c91(0x200))/0x6)+-parseInt(_0x4d7c91(0x1f3))/0x7+parseInt(_0x4d7c91(0x1f5))/0x8+parseInt(_0x4d7c91(0x1f8))/0x9+parseInt(_0x4d7c91(0x1f6))/0xa*(parseInt(_0x4d7c91(0x1fe))/0xb))break;_0x3ceb2f[_0x55d321(0x1c4)](_0x3ceb2f[_0x55d321(0x19b)]());}catch(_0x4dbe5f){_0x3ceb2f['push'](_0x3ceb2f['shift']());}}(_0x195c0a),_0x40d70d[_0x183854(0x1ba)]=!0x0,_0x40d70d[_0x237497(0x1fc)]=void 0x0;var _0x1eea3d,_0x3faa7c,_0x985a22,_0xf3537e,_0x3cea72=_0x27daf0(0x325);_0x40d70d[_0x183854(0x1aa)]=(0x0,_0x3cea72[_0x237497(0x1fd)])(_0x1eea3d||(_0x3faa7c=['\n.rdrCalendarWrapper{\n  color: #000000;\n  font-size: 12px;\n  margin: 0 10px;\n}\n/*\n.rdrDateDisplayWrapper{\n  background-color: rgb(239, 242, 247);\n  color: black !important;\n}\n*/\n\n.rdrDateDisplay{\n  margin: 0.833em;\n}\n\n.rdrDateDisplayItem{\n  border-radius: 4px;\n  background-color: rgb(255, 255, 255);\n  box-shadow: 0 1px 2px 0 rgba(35, 57, 66, 0.21);\n  border: 1px solid transparent;\n}\n\n.rdrDateDisplayItem input{\n    cursor: pointer;\n    height: 2.5em;\n    line-height: 2.5em;\n    border: 0px;\n    background: transparent;\n    width: 100%;\n    color: #849095;\n  }\n\n.rdrDateDisplayItemActive{\n  border-color: currentColor;\n}\n\n.rdrDateDisplayItemActive input{\n    color: #7d888d\n  }\n\n.rdrMonthAndYearWrapper {\n  align-items: center;\n  height: 60px;\n  padding-top: 10px;\n}\n\n.rdrMonthAndYearPickers{\n  font-weight: 600;\n}\n\n.rdrMonthAndYearPickers select{\n    -moz-appearance: none;\n         appearance: none;\n    -webkit-appearance: none;\n    border: 0;\n    background: transparent;\n    padding: 10px 30px 10px 10px;\n    border-radius: 4px;\n    outline: 0;\n    color: #3e484f;\n    background: url("data:image/svg+xml;utf8,<svg width=\'9px\' height=\'6px\' viewBox=\'0 0 9 6\' version=\'1.1\' xmlns=\'http://www.w3.org/2000/svg\' xmlns:xlink=\'http://www.w3.org/1999/xlink\'><g id=\'Artboard\' stroke=\'none\' stroke-width=\'1\' fill=\'none\' fill-rule=\'evenodd\' transform=\'translate(-636.000000, -171.000000)\' fill-opacity=\'0.368716033\'><g id=\'input\' transform=\'translate(172.000000, 37.000000)\' fill=\'%230E242F\' fill-rule=\'nonzero\'><g id=\'Group-9\' transform=\'translate(323.000000, 127.000000)\'><path d=\'M142.280245,7.23952813 C141.987305,6.92353472 141.512432,6.92361662 141.219585,7.23971106 C140.926739,7.5558055 140.926815,8.06821394 141.219755,8.38420735 L145.498801,13 L149.780245,8.38162071 C150.073185,8.0656273 150.073261,7.55321886 149.780415,7.23712442 C149.487568,6.92102998 149.012695,6.92094808 148.719755,7.23694149 L145.498801,10.7113732 L142.280245,7.23952813 Z\' id=\'arrow\'></path></g></g></g></svg>") no-repeat;\n    background-position: right 8px center;\n    cursor: pointer;\n    text-align: center\n  }\n\n.rdrMonthAndYearPickers select:hover{\n      background-color: rgba(0,0,0,0.07);\n    }\n\n.rdrMonthPicker, .rdrYearPicker{\n  margin: 0 5px\n}\n\n.rdrNextPrevButton {\n  display: block;\n  width: 24px;\n  height: 24px;\n  margin: 0 0.833em;\n  padding: 0;\n  border: 0;\n  border-radius: 5px;\n  background: white\n}\n\n.rdrNextPrevButton:hover{\n    background: #E1E7F0;\n  }\n\n.rdrNextPrevButton i {\n    display: block;\n    width: 0;\n    height: 0;\n    padding: 0;\n    text-align: center;\n    border-style: solid;\n    margin: auto;\n    transform: translate(-3px, 0px);\n  }\n\n.rdrPprevButton i {\n    border-width: 4px 6px 4px 4px;\n    border-color: transparent rgb(52, 73, 94) transparent transparent;\n    transform: translate(-3px, 0px);\n  }\n\n.rdrNextButton i {\n    margin: 0 0 0 7px;\n    border-width: 4px 4px 4px 6px;\n    border-color: transparent transparent transparent rgb(52, 73, 94);\n    transform: translate(3px, 0px);\n  }\n\n.rdrWeekDays {\n  padding: 0 0.833em;\n}\n\n.rdrMonth{\n  padding: 0 0.833em 1.666em 0.833em;\n}\n\n.rdrMonth .rdrWeekDays {\n    padding: 0;\n  }\n\n.rdrMonths.rdrMonthsVertical .rdrMonth:first-child .rdrMonthName{\n  display: none;\n}\n\n.rdrWeekDay {\n  font-weight: 400;\n  line-height: 2.667em;\n  color: rgb(132, 144, 149);\n}\n\n.rdrDay {\n  background: transparent;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  border: 0;\n  padding: 0;\n  line-height: 3.000em;\n  height: 3.000em;\n  text-align: center;\n  color: #1d2429\n}\n\n.rdrDay:focus {\n    outline: 0;\n  }\n\n.rdrDayNumber {\n  outline: 0;\n  font-weight: 300;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  top: 5px;\n  bottom: 5px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.rdrDayToday .rdrDayNumber span{\n  font-weight: 500\n}\n\n.rdrDayToday .rdrDayNumber span:after{\n    content: \'\';\n    position: absolute;\n    bottom: 4px;\n    left: 50%;\n    transform: translate(-50%, 0);\n    width: 18px;\n    height: 2px;\n    border-radius: 2px;\n    background: #3d91ff;\n  }\n\n.rdrDayToday:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span:after,.rdrDayToday:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span:after,.rdrDayToday:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span:after,.rdrDayToday:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span:after{\n      background: #fff;\n    }\n\n.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span,.rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span,.rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span{\n          color: rgba(255, 255, 255, 0.85);\n        }\n\n.rdrSelected, .rdrInRange, .rdrStartEdge, .rdrEndEdge{\n  background: currentColor;\n  position: absolute;\n  top: 5px;\n  left: 0;\n  right: 0;\n  bottom: 5px;\n}\n\n.rdrSelected{\n  left: 2px;\n  right: 2px;\n}\n\n.rdrInRange{\n  background: #45bed6 !important;\n\n}\n\n.rdrStartEdge{\n  border-top-left-radius: 1.042em;\n  border-bottom-left-radius: 1.042em;\n  left: 2px;\n  color: #fff;\n  background: #38a5ba!important;\n  border-color: #38a5ba!important;\n}\n\n.rdrEndEdge{\n  border-top-right-radius: 1.042em;\n  border-bottom-right-radius: 1.042em;\n  right: 2px;\n  background: #38a5ba!important;\n}\n\n.rdrSelected{\n  border-radius: 1.042em;\n}\n\n.rdrDayStartOfMonth .rdrInRange, .rdrDayStartOfMonth .rdrEndEdge, .rdrDayStartOfWeek .rdrInRange, .rdrDayStartOfWeek .rdrEndEdge{\n    border-top-left-radius: 1.042em;\n    border-bottom-left-radius: 1.042em;\n    left: 2px;\n  }\n\n.rdrDayEndOfMonth .rdrInRange,  .rdrDayEndOfMonth .rdrStartEdge,  .rdrDayEndOfWeek .rdrInRange,  .rdrDayEndOfWeek .rdrStartEdge{\n    border-top-right-radius: 1.042em;\n    border-bottom-right-radius: 1.042em;\n    right: 2px;\n  }\n\n.rdrDayStartOfMonth .rdrDayInPreview, .rdrDayStartOfMonth .rdrDayEndPreview, .rdrDayStartOfWeek .rdrDayInPreview, .rdrDayStartOfWeek .rdrDayEndPreview{\n    border-top-left-radius: 1.333em;\n    border-bottom-left-radius: 1.333em;\n    border-left-width: 1px;\n    left: 0px;\n  }\n\n.rdrDayEndOfMonth .rdrDayInPreview, .rdrDayEndOfMonth .rdrDayStartPreview, .rdrDayEndOfWeek .rdrDayInPreview, .rdrDayEndOfWeek .rdrDayStartPreview{\n   border-top-right-radius: 1.333em;\n   border-bottom-right-radius: 1.333em;\n   border-right-width: 1px;\n   right: 0px;\n }\n\n.rdrDayStartPreview, .rdrDayInPreview, .rdrDayEndPreview{\n  background: rgba(255, 255, 255, 0.09);\n  position: absolute;\n  top: 3px;\n  left: 0px;\n  right: 0px;\n  bottom: 3px;\n  pointer-events: none;\n  border: 0px solid currentColor;\n  z-index: 1;\n}\n\n.rdrDayStartPreview{\n  border-top-width: 1px;\n  border-left-width: 1px;\n  border-bottom-width: 1px;\n  border-top-left-radius: 1.333em;\n  border-bottom-left-radius: 1.333em;\n  left: 0px;\n}\n\n.rdrDayInPreview{\n  border-top-width: 1px;\n  border-bottom-width: 1px;\n}\n\n.rdrDayEndPreview{\n  border-top-width: 1px;\n  border-right-width: 1px;\n  border-bottom-width: 1px;\n  border-top-right-radius: 1.333em;\n  border-bottom-right-radius: 1.333em;\n  right: 2px;\n  right: 0px;\n}\n\n.rdrDefinedRangesWrapper{\n  font-size: 12px;\n  width: 226px;\n  border-right: solid 1px #eff2f7;\n  background: #fff;\n}\n\n.rdrDefinedRangesWrapper .rdrStaticRangeSelected{\n    color: #000000 !important;\n    font-weight: 600;\n  }\n\n.rdrStaticRange{\n  border: 0;\n  cursor: pointer;\n  display: block;\n  outline: 0;\n  border-bottom: 1px solid #eff2f7;\n  padding: 0;\n  background: #fff;\n  color: black;\n  height: 48px;\n}\n\n.rdrStaticRange:hover .rdrStaticRangeLabel,.rdrStaticRange:focus .rdrStaticRangeLabel{\n      background: #20a7c9;\n    }\n\n.rdrStaticRangeLabel{\n  display: block;\n  outline: 0;\n  line-height: 18px;\n  padding: 10px 20px;\n  text-align: left;\n}\n\n.rdrInputRanges{\n  padding: 10px 0;\n  display:none;\n}\n\n.rdrInputRange{\n  align-items: center;\n  padding: 5px 20px;\n}\n\n.rdrInputRangeInput{\n  width: 30px;\n  height: 30px;\n  line-height: 30px;\n  border-radius: 4px;\n  text-align: center;\n  border: solid 1px rgb(222, 231, 235);\n  margin-right: 10px;\n  color: rgb(108, 118, 122)\n}\n\n.rdrInputRangeInput:focus, .rdrInputRangeInput:hover{\n    border-color: rgb(180, 191, 196);\n    outline: 0;\n    color: #333;\n  }\n\n.rdrCalendarWrapper:not(.rdrDateRangeWrapper) .rdrDayHovered .rdrDayNumber:after{\n  content: \'\';\n  border: 1px solid currentColor;\n  border-radius: 1.333em;\n  position: absolute;\n  top: -2px;\n  bottom: -2px;\n  left: 0px;\n  right: 0px;\n  background: transparent;\n}\n\n.rdrDayPassive{\n  pointer-events: none;\n}\n\n.rdrDayPassive .rdrDayNumber span{\n    color: #d5dce0;\n  }\n\n.rdrDayPassive .rdrInRange, .rdrDayPassive .rdrStartEdge, .rdrDayPassive .rdrEndEdge, .rdrDayPassive .rdrSelected, .rdrDayPassive .rdrDayStartPreview, .rdrDayPassive .rdrDayInPreview, .rdrDayPassive .rdrDayEndPreview{\n    display: none;\n  }\n\n.rdrDayDisabled {\n  background-color: rgb(248, 248, 248);\n}\n\n.rdrDayDisabled .rdrDayNumber span{\n    color: #aeb9bf;\n  }\n\n.rdrDayDisabled .rdrInRange, .rdrDayDisabled .rdrStartEdge, .rdrDayDisabled .rdrEndEdge, .rdrDayDisabled .rdrSelected, .rdrDayDisabled .rdrDayStartPreview, .rdrDayDisabled .rdrDayInPreview, .rdrDayDisabled .rdrDayEndPreview{\n    filter: grayscale(100%) opacity(60%);\n  }\n\n.rdrMonthName{\n  text-align: left;\n  font-weight: 600;\n  color: #849095;\n  padding: 0.833em;\n}\n'],_0xf3537e=_0x237497,!_0x985a22&&(_0x985a22=_0x3faa7c[_0xf3537e(0x1fb)](0x0)),_0x3faa7c[_0xf3537e(0x1f7)]=_0x985a22,_0x1eea3d=_0x3faa7c));},0x42:_0x17ae4a=>{_0x17ae4a['exports']=require('@ant-design/icons');},0x325:_0x2beeba=>{_0x2beeba['exports']=require('@emotion/react');},0x2e1:_0xc0d9a5=>{var _0x28d39c=a0_0x167b;_0xc0d9a5[_0x28d39c(0x1b8)]=require('@superset-ui/chart-controls');},0xb2:_0x481f05=>{var _0xa75f56=a0_0x167b;_0x481f05[_0xa75f56(0x1b8)]=require('@superset-ui/core');},0x2d5:_0x3378c7=>{var _0x18fc2d=a0_0x167b;_0x3378c7[_0x18fc2d(0x1b8)]=require('antd');},0x92:_0x5abac9=>{var _0x3ddf21=a0_0x167b;_0x5abac9[_0x3ddf21(0x1b8)]=require('date-fns');},0xf5:_0x53239c=>{var _0x3bb3cb=a0_0x167b;_0x53239c[_0x3bb3cb(0x1b8)]=require('moment');},0x2b1:_0x570ff1=>{var _0x244463=a0_0x167b;_0x570ff1[_0x244463(0x1b8)]=require('react');},0x130:_0x37c90f=>{_0x37c90f['exports']=require('react-date-range');},0x195:_0xf4f310=>{var _0x592e5b=a0_0x167b;_0xf4f310[_0x592e5b(0x1b8)]=require('react-dom');}},_0x2765fa={};return function _0x2b685b(_0x3e7293){var _0xdcace3=a0_0x167b,_0x45e33d=_0x2765fa[_0x3e7293];if(void 0x0!==_0x45e33d)return _0x45e33d['exports'];var _0x5436ef=_0x2765fa[_0x3e7293]={'exports':{}};return _0x1b1559[_0x3e7293](_0x5436ef,_0x5436ef['exports'],_0x2b685b),_0x5436ef[_0xdcace3(0x1b8)];}(0x79);})())));function a0_0x4ac5(){var _0x1e63b1=['getElementById','4xIolzj','set','div','defineProperty','shift','join','left','317040zVgyDU','startOfMonth','useEffect','textContent','createElement','Fragment','format','doSomethingBeforeRender','querySelector','then','Button','styled','defaultStyles','21bWoxYv','fontSize','1925469CwSoNM','15533310FSzPlo','default','1451436eoOMyp','prototype','336078BskLkk','prepend','711266jfvXNC','2pxOmAu','endDate','hasOwnProperty','exports','parentNode','__esModule','style','maxDate','CalendarPicker','startOfDay','Component','minDate','render','display','2606600EiPXsZ','push','endOfMonth'];a0_0x4ac5=function(){return _0x1e63b1;};return a0_0x4ac5();}
+// Calendar Picker Plugin for Apache Superset
+// Dependencies imports
+import React, { useState, useEffect, useCallback } from 'react';
+import ReactDOM from 'react-dom';
+import moment from 'moment';
+import { styled } from '@emotion/react';
+import { t, styled as supersetStyled } from '@superset-ui/core';
+import { sharedControls } from '@superset-ui/chart-controls';
+import { DateRange, DateRangePicker, createStaticRanges } from 'react-date-range';
+import { Button, Select, Modal } from 'antd';
+import { CalendarOutlined, CloseCircleOutlined } from '@ant-design/icons';
+import { 
+  startOfDay, 
+  endOfDay,
+  startOfWeek,
+  endOfWeek,
+  startOfMonth,
+  endOfMonth,
+  subDays,
+  subMonths
+} from 'date-fns';
+
+// Constants
+const DATE_FORMAT = 'YYYY-MM-DD[T]HH:mm:ss';
+const { Option } = Select;
+
+// Time grain mappings
+const TIME_GRAIN_MAP = {
+  'TimeGrain.SECOND': 'PT1S',
+  'TimeGrain.MINUTE': 'PT1M', 
+  'TimeGrain.FIVE_MINUTES': 'PT5M',
+  'TimeGrain.TEN_MINUTES': 'PT10M',
+  'TimeGrain.FIFTEEN_MINUTES': 'PT15M',
+  'TimeGrain.THIRTY_MINUTES': 'PT30M',
+  'TimeGrain.HOUR': 'PT1H',
+  'TimeGrain.DAY': 'P1D',
+  'TimeGrain.WEEK': 'P1W', 
+  'TimeGrain.MONTH': 'P1M',
+  'TimeGrain.QUARTER': 'P3M',
+  'TimeGrain.YEAR': 'P1Y',
+  'TimeGrain.WEEK_STARTING_MONDAY': '1969-12-28T00:00:00Z/P1W'
+};
+
+const TIME_GRAIN_LABELS = {
+  'TimeGrain.SECOND': 'Second',
+  'TimeGrain.MINUTE': 'Minute',
+  'TimeGrain.FIVE_MINUTES': '5 minute',
+  'TimeGrain.TEN_MINUTES': '10 minute', 
+  'TimeGrain.FIFTEEN_MINUTES': '15 minute',
+  'TimeGrain.THIRTY_MINUTES': '30 minute',
+  'TimeGrain.HOUR': 'Hour',
+  'TimeGrain.DAY': 'Day',
+  'TimeGrain.WEEK': 'Week',
+  'TimeGrain.MONTH': 'Month', 
+  'TimeGrain.QUARTER': 'Quarter',
+  'TimeGrain.YEAR': 'Year',
+  'TimeGrain.WEEK_STARTING_MONDAY': 'Week starting Monday'
+};
+
+// Styled components
+const CalendarWrapper = styled.div`
+  background: linear-gradient(135deg, #b5d2d836, #d0f5fc47);
+  padding: 20px;  
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0 auto;
+  color: #333;
+`;
+
+const StyledSpan = styled.span`
+  font-weight: bold;
+`;
+
+const StyledDiv = styled.div`
+  font-weight: 600;
+  font-size: 12;
+  margin-bottom: 4px;
+`;
+
+const StyledModal = styled(Modal)`
+  .ant-modal-content {
+    width: fit-content;
+  }
+`;
+
+// Calendar component
+export function CalendarPicker(props) {
+  const {
+    data,
+    setDataMask,
+    cols,
+    buttonHeight,
+    buttonWidth, 
+    popupPresist,
+    showPresets,
+    defaultButtonText,
+    defaultStartDate,
+    defaultEndDate,
+    showTimegrain,
+    defaultTimeGrain,
+    showInNativeFilter,
+    showInNativeFilterLabel,
+    HideonViewMode,
+    sliceId,
+    weekStartsOn,
+    showCalenderIcon,
+    status,
+    nDaysAgo,
+    timeGrainSqla
+  } = props;
+
+  // Native filter setup
+  const filterBar = document.querySelector('[data-test="filter-bar"] > div:nth-of-type(2) > div:nth-of-type(2)');
+  
+  if (showInNativeFilter && filterBar) {
+    const chartDiv = document.querySelector('.dashboard-chart-id-' + sliceId);
+    chartDiv.style.display = 'block';
+    if (chartDiv && HideonViewMode) {
+      chartDiv.style.display = 'none';
+    }
+  } else {
+    const chartDiv = document.querySelector('.dashboard-chart-id-' + sliceId);
+    if (chartDiv) {
+      chartDiv.style.display = 'block'; 
+    }
+  }
+
+  // Handle data mask updates
+  const handleDataMaskUpdate = useCallback((ranges, timeGrain) => {
+    let dateRange = ranges;
+    let [startDate, endDate] = [ranges[0].startDate, ranges[0].endDate];
+    const timeGrainLabel = timeGrain ? ` ( ${TIME_GRAIN_LABELS[timeGrain]} )` : '';
+
+    if (startDate && endDate) {
+      if (dateRange) {
+        startDate = moment(startDate).format(DATE_FORMAT);
+        endDate = moment(endDate).add(1,'d').format(DATE_FORMAT);
+      }
+      
+      setDataMask({
+        extraFormData: {
+          time_range: [startDate, endDate].join(' : '),
+          time_grain_sqla: TIME_GRAIN_MAP[timeGrain]
+        },
+        filterState: {
+          value: [
+            moment(startDate).format('MMM DD, YYYY'),
+            moment(endDate).format('MMM DD, YYYY') + timeGrainLabel
+          ]
+        }
+      });
+    } else if (timeGrain) {
+      setDataMask({
+        extraFormData: {
+          time_grain_sqla: TIME_GRAIN_MAP[timeGrain]
+        },
+        filterState: {
+          value: [timeGrainLabel]
+        }
+      });
+    }
+  }, [setDataMask]);
+
+  // Get date range bounds
+  function getDateBounds(data, column) {
+    if (data.length === 0) {
+      return { minDate: null, maxDate: null };
+    }
+
+    const bounds = {
+      minDate: data[0][column],
+      maxDate: data[0][column]
+    };
+
+    return data.reduce((acc, row) => {
+      const value = row[column];
+      if (value < acc.minDate) acc.minDate = value;
+      if (value > acc.maxDate) acc.maxDate = value;
+      return acc;
+    }, bounds);
+  }
+
+  // Helper functions
+  function isValidDate(date) {
+    return !!date && String(date).length > 0;
+  }
+
+  // State management
+  const [selectedTimeGrain, setSelectedTimeGrain] = useState(defaultTimeGrain || null);
+  
+  const TimeGrainSelect = () => {
+    return (
+      <Select
+        placeholder="Select a time grain"
+        onChange={value => setSelectedTimeGrain(value)}
+        style={{ width: 170, marginRight: 10 }}
+        value={selectedTimeGrain}
+        suffixIcon={
+          <CloseCircleOutlined
+            style={{ color: 'rgba(0, 0, 0, 0.25)', cursor: 'pointer' }}
+            onClick={() => setSelectedTimeGrain('')}
+          />
+        }
+      >
+        <Option value="">Select a time grain</Option>
+        {timeGrainSqla.map(([value, label]) => (
+          <Option key={value} value={value}>
+            {label}
+          </Option>
+        ))}
+      </Select>
+    );
+  };
+
+  useEffect(() => {
+    setSelectedTimeGrain(defaultTimeGrain);
+  }, [defaultTimeGrain]);
+
+  // Date range setup
+  const defaultDateRange = [{
+    startDate: isValidDate(defaultStartDate) ? new Date(defaultStartDate) : null,
+    endDate: isValidDate(defaultEndDate) ? new Date(defaultEndDate) : new Date(''),
+    key: 'selection'
+  }];
+
+  const emptyDateRange = [{
+    startDate: null,
+    endDate: new Date(''),
+    key: 'selection'
+  }];
+
+  const [dateRange, setDateRange] = useState(defaultDateRange);
+  const [selectedRange, setSelectedRange] = useState(defaultDateRange);
+  const [modalPosition, setModalPosition] = useState({ top: 0, left: 0 });
+  const [focusedRange, setFocusedRange] = useState([0, 0]);
+
+  useEffect(() => {
+    if (status === 200) {
+      setDateRange(defaultDateRange);
+      setSelectedRange(defaultDateRange);
+      handleDataMaskUpdate(defaultDateRange, selectedTimeGrain);
+    }
+  }, [status, nDaysAgo, defaultTimeGrain]);
+
+  // Calendar modal component
+  class CalendarModal extends React.Component {
+    render() {
+      const handleAction = (action) => {
+        if (action === 'Apply') {
+          setSelectedRange(dateRange);
+          handleDataMaskUpdate(dateRange, selectedTimeGrain);
+          if (!popupPresist) {
+            setShowModal(false);
+          }
+        }
+        if (action === 'Clear') {
+          setDateRange(emptyDateRange);
+          setSelectedRange(emptyDateRange);
+          setDataMask({
+            extraFormData: {},
+            filterState: { value: '' }
+          });
+          setSelectedTimeGrain(null);
+          setFocusedRange([0, 0]);
+          if (!popupPresist) {
+            setShowModal(false);
+          }
+        }
+      };
+
+      const handleRangeFocusChange = (range) => {
+        setFocusedRange(range);
+      };
+
+      // Define preset ranges
+      const definedRanges = createStaticRanges([
+        {
+          label: 'Today',
+          range: () => ({
+            startDate: startOfDay(new Date()),
+            endDate: endOfDay(new Date())
+          })
+        },
+        {
+          label: 'Yesterday',
+          range: () => ({
+            startDate: startOfDay(subDays(new Date(), 1)),
+            endDate: endOfDay(subDays(new Date(), 1))
+          })
+        },
+        {
+          label: 'Last 7 Days',
+          range: () => ({
+            startDate: startOfDay(subDays(new Date(), 6)),
+            endDate: endOfDay(new Date())
+          })
+        },
+        {
+          label: 'This Week',
+          range: () => ({
+            startDate: startOfDay(startOfWeek(new Date(), { weekStartsOn })),
+            endDate: endOfDay(endOfWeek(new Date(), { weekStartsOn }))
+          })
+        },
+        {
+          label: 'Last Week',
+          range: () => {
+            const start = startOfWeek(subDays(new Date(), 7), { weekStartsOn });
+            const end = endOfWeek(subDays(new Date(), 7), { weekStartsOn });
+            return {
+              startDate: startOfDay(start),
+              endDate: endOfDay(end)
+            };
+          }
+        },
+        {
+          label: 'Last 28 Days',
+          range: () => ({
+            startDate: startOfDay(subDays(new Date(), 27)),
+            endDate: endOfDay(new Date())
+          })
+        },
+        {
+          label: 'This Month',
+          range: () => ({
+            startDate: startOfDay(startOfMonth(new Date())),
+            endDate: endOfDay(endOfMonth(new Date()))
+          })
+        },
+        {
+          label: 'Last Month',
+          range: () => {
+            const start = startOfMonth(subMonths(new Date(), 1));
+            const end = endOfMonth(subMonths(new Date(), 1));
+            return {
+              startDate: startOfDay(start),
+              endDate: endOfDay(end)
+            };
+          }
+        },
+        {
+          label: 'Last 90 Days',
+          range: () => ({
+            startDate: startOfDay(subDays(new Date(), 89)),
+            endDate: endOfDay(new Date())
+          })
+        },
+        {
+          label: 'Last 12 Months',
+          range: () => {
+            const start = startOfMonth(subMonths(new Date(), 11));
+            const end = endOfMonth(new Date());
+            return {
+              startDate: startOfDay(start),
+              endDate: endOfDay(end)
+            };
+          }
+        }
+      ]);
+
+      const dateBounds = getDateBounds(data, cols);
+
+      return (
+        <React.Fragment>
+          <div id={`calender${String(sliceId)}`}>
+            {showPresets ? (
+              <DateRange
+                minDate={new Date(dateBounds.minDate)}
+                maxDate={new Date(dateBounds.maxDate)}
+                startDatePlaceholder="Start Date"
+                endDatePlaceholder="End Date"
+                focusedRange={focusedRange}
+                onRangeFocusChange={handleRangeFocusChange}
+                onChange={item => {
+                  const { selection } = item;
+                  setFocusedRange([0, 1]);
+                  
+                  if (selection.endDate) {
+                    setDateRange([{
+                      startDate: selection.startDate,
+                      endDate: selection.endDate,
+                      key: 'selection'
+                    }]);
+                  } else {
+                    setDateRange([{
+                      startDate: selection.startDate,
+                      endDate: selection.endDate,
+                      key: 'selection',
+                      autoFocus: false
+                    }]);
+                  }
+                }}
+                ranges={dateRange}
+                rangeColors={['#808080', '#808080', '#808080']}
+                weekStartsOn={weekStartsOn}
+                staticRanges={definedRanges}
+                shownDate={
+                  dateRange[0].endDate !== 'Invalid Date' && new Date(dateRange[0].startDate)
+                    ? dateRange[0].endDate
+                    : new Date(dateBounds.maxDate)
+                }
+              />
+            ) : (
+              <DateRangePicker
+                minDate={new Date(dateBounds.minDate)}
+                maxDate={new Date(dateBounds.maxDate)}
+                startDatePlaceholder="Start Date"
+                endDatePlaceholder="End Date"
+                focusedRange={focusedRange}
+                onRangeFocusChange={handleRangeFocusChange}
+                onChange={ranges => setDateRange([ranges.selection])}
+                moveRangeOnFirstSelection={false}
+                ranges={dateRange}
+                rangeColors={['#808080', '#808080', '#808080']}
+                weekStartsOn={weekStartsOn}
+                shownDate={
+                  dateRange[0].endDate !== 'Invalid Date' && new Date(dateRange[0].startDate)
+                    ? dateRange[0].endDate
+                    : new Date(dateBounds.maxDate)
+                }
+              />
+            )}
+            <div style={{ textAlign: 'end' }}>
+              {showTimegrain ? (
+                <TimeGrainSelect />
+              ) : (
+                <React.Fragment />
+              )}
+              <Button danger onClick={e => handleAction('Clear')}>
+                Clear
+              </Button>
+              <Button
+                type="primary"
+                style={{ margin: '0px 10px' }}
+                onClick={e => handleAction('Apply')}
+              >
+                Apply
+              </Button>
+            </div>
+          </div>
+        </React.Fragment>
+      );
+    }
+  }
+
+  // Modal state management
+  const [showModal, setShowModal] = useState(false);
+  
+  const handleShowModal = () => {
+    const button = document.getElementById('showTooltipButton' + sliceId);
+    
+    if (button && button) {
+      const rect = button.getBoundingClientRect();
+      const modalWidth = showPresets ? 610 : 380;
+      const windowWidth = window.innerWidth;
+      
+      const positionRight = rect.left + 10;
+      const positionLeft = rect.right - modalWidth - 10;
+      
+      if (windowWidth - rect.left >= modalWidth) {
+        setModalPosition({
+          left: positionRight,
+          top: rect.top
+        });
+      } else {
+        setModalPosition({
+          left: positionLeft,
+          top: rect.top
+        });
+      }
+    }
+    setShowModal(true);
+  };
+
+  // Button component
+  class CalendarButton extends React.Component {
+    constructor(props) {
+      super(props);
+      this.doSomethingBeforeRender();
+    }
+
+    doSomethingBeforeRender() {}
+
+    render() {
+      let buttonText;
+      if (selectedRange[0].startDate && selectedRange[0].endDate) {
+        buttonText = 
+          moment(new Date(selectedRange[0].startDate)).format('MMM DD, YYYY') +
+          ' - ' +
+          moment(new Date(selectedRange[0].endDate)).format('MMM DD, YYYY');
+      } else {
+        buttonText = defaultButtonText || 'Select Dates';
+      }
+
+      const btnHeight = buttonHeight === 'auto' ? buttonHeight : buttonHeight + 'px';
+      const btnWidth = 
+        buttonWidth === 'auto' 
+          ? buttonWidth 
+          : buttonWidth.length === 0 
+            ? '230px' 
+            : buttonWidth + 'px';
+
+      return (
+        <React.Fragment>
+          {status === 200 && true ? (
+            <Button
+              type="primary"
+              icon={
+                showCalenderIcon ? (
+                  <CalendarOutlined />
+                ) : (
+                  <React.Fragment />
+                )
+              }
+              id={'showTooltipButton' + sliceId}
+              style={{
+                margin: '10px 0px',
+                padding: '4px 7px',
+                height: btnHeight,
+                width: btnWidth,
+                textAlign: 'left'
+              }}
+              onClick={handleShowModal}
+            >
+              {buttonText}
+            </Button>
+          ) : (
+            <React.Fragment />
+          )}
+        </React.Fragment>
+      );
+    }
+  }
+
+  // Handle native filter rendering
+  if (showInNativeFilter) {
+    const chartDiv = document.querySelector('.dashboard-chart-id-' + sliceId);
+
+    if (filterBar) {
+      const existingButton = document.getElementById('calenderButton' + sliceId);
+      if (existingButton && existingButton.parentNode) {
+        existingButton.parentNode.removeChild(existingButton);
+      }
+
+      const buttonContainer = document.createElement('div');
+      buttonContainer.style.padding = '0px 15px';
+
+      const label = document.createElement('h4');
+      label.setAttribute('data-test', 'filter-control-name');
+      label.style.color = '#323232';
+      label.style.fontSize = '12px';
+      label.style.margin = '0';
+      label.style.overflowWrap = 'anywhere';
+      label.textContent = showInNativeFilterLabel;
+
+      buttonContainer.id = 'calenderButton' + sliceId;
+      filterBar.prepend(buttonContainer);
+      
+      ReactDOM.render(<CalendarButton />, buttonContainer);
+      buttonContainer.appendChild(label);
+
+      chartDiv.style.display = 'block';
+      if (chartDiv && HideonViewMode) {
+        chartDiv.style.display = 'none';
+      }
+    } else if (chartDiv) {
+      chartDiv.style.display = 'block';
+    }
+  }
+
+  return (
+    <React.Fragment>
+      {showInNativeFilter && filterBar ? (
+        <React.Fragment />
+      ) : (
+        <CalendarButton />
+      )}
+      <StyledModal
+        className={'calender' + sliceId}
+        title={null}
+        footer={null}
+        mask={false}
+        visible={showModal}
+        onOk={() => {
+          setShowModal(false);
+        }}
+        onCancel={() => {
+          setShowModal(false);
+        }}
+        style={{
+          position: 'absolute',
+          transition: 'opacity 0.3s',
+          top: modalPosition.top + 'px',
+          left: modalPosition.left + 'px',
+          color: 'white',
+          background: 'transparent',
+          width: 'fit-content'
+        }}
+      >
+        <CalendarWrapper>
+          <CalendarModal />
+        </CalendarWrapper>
+      </StyledModal>
+    </React.Fragment>
+  );
+}
+
+// Plugin definition
+class CalendarPickerChartPlugin extends ChartPlugin {
+  constructor() {
+    const metadata = new ChartMetadata({
+      description: 'Calendar Picker',
+      name: t('Calendar Picker'),
+      behaviors: [Behavior.InteractiveChart],
+      thumbnail: 'data:image/png;base64,...' // Base64 thumbnail data
+    });
+
+    super({
+      buildQuery,
+      controlPanel,
+      loadChart: () => 
+        Promise.resolve().then(() => require('./CalendarPicker')),
+      metadata,
+      transformProps
+    });
+  }
+}
+
+export default CalendarPickerChartPlugin;
