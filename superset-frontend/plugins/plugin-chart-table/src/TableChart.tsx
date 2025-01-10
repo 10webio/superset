@@ -843,15 +843,15 @@ export default function TableChart<D extends DataRecord = DataRecord>(
             role: 'cell',
             // show raw number in title in case of numeric values
             title: typeof value === 'number' ? String(value) : undefined,
-            onClick:
-              emitCrossFilters && !valueRange && !isMetric
-                ? () => {
-                    // allow selecting text in a cell
-                    if (!getSelectedText()) {
-                      toggleFilter(key, value);
-                    }
-                  }
-                : undefined,
+            // onClick:
+            //   emitCrossFilters && !valueRange && !isMetric
+            //     ? () => {
+            //         // allow selecting text in a cell
+            //         if (!getSelectedText()) {
+            //           toggleFilter(key, value);
+            //         }
+            //       }
+            //     : undefined,
             onContextMenu: (e: MouseEvent) => {
               if (handleContextMenu) {
                 e.preventDefault();
