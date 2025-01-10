@@ -723,7 +723,7 @@ export default function TableChart<D extends DataRecord = DataRecord>(
 
       let className = '';
       if (emitCrossFilters && !isMetric) {
-        className += ' dt-is-filter';
+        // className += ' dt-is-filter';
       }
 
       if (!isMetric && !isPercentMetric) {
