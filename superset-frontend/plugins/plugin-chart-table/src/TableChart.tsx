@@ -1066,6 +1066,8 @@ export default function TableChart<D extends DataRecord = DataRecord>(
 
   const { width: widthFromState, height: heightFromState } = tableSize;
 
+  console.log('Cross-filtering on-click:', cross_filtering_on_click);
+
   return (
     <Styles>
       <DataTable<D>
