@@ -404,6 +404,7 @@ const transformProps = (
     comparison_color_enabled: comparisonColorEnabled = false,
     comparison_color_scheme: comparisonColorScheme = ColorSchemeEnum.Green,
     comparison_type,
+    cross_filtering_on_click,
   } = formData;
   const isUsingTimeComparison =
     !isEmpty(time_compare) &&
@@ -643,6 +644,7 @@ const transformProps = (
     basicColorFormatters,
     startDateOffset,
     basicColorColumnFormatters,
+    cross_filtering_on_click,
   };
 };
 

@@ -265,7 +265,7 @@ export default function TableChart<D extends DataRecord = DataRecord>(
     isUsingTimeComparison,
     basicColorFormatters,
     basicColorColumnFormatters,
-    cross_filtering_on_click,
+    cross_filtering_on_click = false,
   } = props;
   const comparisonColumns = [
     { key: 'all', label: t('Display all') },
