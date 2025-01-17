@@ -724,7 +724,7 @@ export default function TableChart<D extends DataRecord = DataRecord>(
         getValueRange(key, alignPositiveNegative);
 
       let className = '';
-      if (emitCrossFilters && !isMetric) {
+      if (emitCrossFilters && !isMetric && cross_filtering_on_click) {
         className += ' dt-is-filter';
       }
 
