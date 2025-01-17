@@ -234,6 +234,7 @@ const getNoResultsMessage = (filter: string) =>
 export default function TableChart<D extends DataRecord = DataRecord>(
   props: TableChartTransformedProps<D> & {
     sticky?: DataTableProps<D>['sticky'];
+    cross_filtering_on_click?: boolean;
   },
 ) {
   const {
@@ -264,6 +265,7 @@ export default function TableChart<D extends DataRecord = DataRecord>(
     isUsingTimeComparison,
     basicColorFormatters,
     basicColorColumnFormatters,
+    cross_filtering_on_click,
   } = props;
   const comparisonColumns = [
     { key: 'all', label: t('Display all') },
@@ -386,12 +388,12 @@ export default function TableChart<D extends DataRecord = DataRecord>(
 
   const toggleFilter = useCallback(
     function toggleFilter(key: string, val: DataRecordValue) {
-      if (!emitCrossFilters) {
+      if (!emitCrossFilters || !cross_filtering_on_click) {
         return;
       }
       setDataMask(getCrossFilterDataMask(key, val).dataMask);
     },
-    [emitCrossFilters, getCrossFilterDataMask, setDataMask],
+    [emitCrossFilters, cross_filtering_on_click, getCrossFilterDataMask, setDataMask],
   );
 
   const getSharedStyle = (column: DataColumnMeta): CSSProperties => {
@@ -723,7 +725,7 @@ export default function TableChart<D extends DataRecord = DataRecord>(
 
       let className = '';
       if (emitCrossFilters && !isMetric) {
-        // className += ' dt-is-filter';
+        className += ' dt-is-filter';
       }
 
       if (!isMetric && !isPercentMetric) {
@@ -843,15 +845,15 @@ export default function TableChart<D extends DataRecord = DataRecord>(
             role: 'cell',
             // show raw number in title in case of numeric values
             title: typeof value === 'number' ? String(value) : undefined,
-            // onClick:
-            //   emitCrossFilters && !valueRange && !isMetric
-            //     ? () => {
-            //         // allow selecting text in a cell
-            //         if (!getSelectedText()) {
-            //           toggleFilter(key, value);
-            //         }
-            //       }
-            //     : undefined,
+            onClick:
+              emitCrossFilters && !valueRange && !isMetric
+                ? () => {
+                    // allow selecting text in a cell
+                    if (!getSelectedText()) {
+                      toggleFilter(key, value);
+                    }
+                  }
+                : undefined,
             onContextMenu: (e: MouseEvent) => {
               if (handleContextMenu) {
                 e.preventDefault();

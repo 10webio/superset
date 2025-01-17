@@ -378,6 +378,18 @@ const config: ControlPanelConfig = {
             },
           },
         ],
+        [
+          {
+            name: 'cross_filtering_on_click',
+            config: {
+              type: 'CheckboxControl',
+              label: t('Cross-filtering on-click'),
+              default: false,
+              renderTrigger: true,
+              description: t('Enable cross-filtering when clicking on table cells.'),
+            },
+          },
+        ],
       ],
     },
     {
