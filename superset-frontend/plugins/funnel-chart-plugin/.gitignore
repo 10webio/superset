@@ -1,0 +1,3 @@
+!package/dist/*
+!package/dist
+!package/dist/lib.js.map
