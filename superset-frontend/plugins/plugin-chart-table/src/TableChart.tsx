@@ -393,7 +393,12 @@ export default function TableChart<D extends DataRecord = DataRecord>(
       }
       setDataMask(getCrossFilterDataMask(key, val).dataMask);
     },
-    [emitCrossFilters, cross_filtering_on_click, getCrossFilterDataMask, setDataMask],
+    [
+      emitCrossFilters,
+      cross_filtering_on_click,
+      getCrossFilterDataMask,
+      setDataMask,
+    ],
   );
 
   const getSharedStyle = (column: DataColumnMeta): CSSProperties => {
@@ -1065,8 +1070,6 @@ export default function TableChart<D extends DataRecord = DataRecord>(
   }, [width, height, handleSizeChange, tableSize]);
 
   const { width: widthFromState, height: heightFromState } = tableSize;
-
-  console.log('Cross-filtering on-click:', cross_filtering_on_click);
 
   return (
     <Styles>
