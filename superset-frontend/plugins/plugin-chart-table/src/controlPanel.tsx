@@ -387,7 +387,7 @@ const config: ControlPanelConfig = {
               default: false,
               renderTrigger: true,
               description: t(
-                'Enable cross-filtering when clicking on table cells.',
+                'Enable cross-filtering when clicking table cells.',
               ),
             },
           },
