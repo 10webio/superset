@@ -559,6 +559,12 @@ export default function transformProps(
           : getCustomFormatter(customFormatters, metrics) ?? defaultFormatter;
 
         const rows: string[][] = [];
+        const total = Object.values(forecastValues).reduce(
+          (acc, value) =>
+            value.observation !== undefined ? acc + value.observation : acc,
+          0,
+        );
+        const showPercentage = Boolean(isMultiSeries) && richTooltip && !isForecast && !forcePercentFormatter;
         const keys = Object.keys(forecastValues);
         let focusedRow;
         sortedKeys
@@ -573,6 +579,11 @@ export default function transformProps(
               seriesName: key,
               formatter,
             });
+            if (showPercentage && value.observation !== undefined) {
+              row.push(
+                percentFormatter.format(value.observation / (total || 1)),
+              );
+            }
             rows.push(row);
             if (key === focusedSeries) {
               focusedRow = rows.length - 1;
