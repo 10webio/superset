@@ -541,10 +541,15 @@ export default function transformProps(
           ? rows.reduce((sum, row) => sum + (row.value?.[1] ?? 0), 0)
           : null;
         
-        const tooltipRows = rows.map(row => [
-          row.seriesName,
-          row.value?.[1],
-          total ? getPercentFormatter()(row.value?.[1] / total) : null,
+        const tooltipRows = rows.map(row => ({
+          name: row.seriesName,
+          value: row.value?.[1],
+          percent: total ? getPercentFormatter()(row.value?.[1] / total) : null,
+          marker: row.marker || `<span class="tooltip-marker" style="background-color:${row.color};"></span>`,
+        })).map(row => [
+          row.marker + row.name,
+          row.value,
+          row.percent,
         ]);
 
         if (showTotalValue && total) {
