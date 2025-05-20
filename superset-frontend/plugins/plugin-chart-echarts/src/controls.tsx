@@ -210,9 +210,21 @@ const tooltipSortByMetricControl: ControlSetItem = {
   },
 };
 
+export const showTotalValue: ControlSetItem = {
+  name: 'show_total_value',
+  config: {
+    type: 'CheckboxControl',
+    label: t('Show Total Value'),
+    renderTrigger: true,
+    default: false,
+    description: t('Whether to display the total value in tooltip'),
+  },
+};
+
 export const richTooltipSection: ControlSetRow[] = [
   [<ControlSubSectionHeader>{t('Tooltip')}</ControlSubSectionHeader>],
   [richTooltipControl],
+  [showTotalValue],
   [tooltipSortByMetricControl],
   [tooltipTimeFormatControl],
 ];

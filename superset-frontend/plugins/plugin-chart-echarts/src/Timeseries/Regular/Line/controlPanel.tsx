@@ -41,6 +41,7 @@ import {
   truncateXAxis,
   xAxisBounds,
   xAxisLabelRotation,
+  showTotalValue,
 } from '../../../controls';
 
 const {
@@ -183,6 +184,7 @@ const config: ControlPanelConfig = {
         ],
         [xAxisLabelRotation],
         ...richTooltipSection,
+        ...showTotalValue,
         // eslint-disable-next-line react/jsx-key
         [<ControlSubSectionHeader>{t('Y Axis')}</ControlSubSectionHeader>],
         ['y_axis_format'],

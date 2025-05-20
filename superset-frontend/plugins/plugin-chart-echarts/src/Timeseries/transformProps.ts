@@ -187,6 +187,7 @@ export default function transformProps(
     yAxisTitleMargin,
     yAxisTitlePosition,
     zoomable,
+    showTotalValue,
   }: EchartsTimeseriesFormData = { ...DEFAULT_FORM_DATA, ...formData };
   const refs: Refs = {};
   const groupBy = ensureIsArray(groupby);
@@ -535,67 +536,25 @@ export default function transformProps(
       show: !inContextMenu,
       trigger: richTooltip ? 'axis' : 'item',
       formatter: (params: any) => {
-        const [xIndex, yIndex] = isHorizontal ? [1, 0] : [0, 1];
-        const xValue: number = richTooltip
-          ? params[0].value[xIndex]
-          : params.value[xIndex];
-        const forecastValue: any[] = richTooltip ? params : [params];
-        const sortedKeys = extractTooltipKeys(
-          forecastValue,
-          yIndex,
-          richTooltip,
-          tooltipSortByMetric,
-        );
-        const forecastValues: Record<string, ForecastValue> =
-          extractForecastValuesFromTooltipParams(forecastValue, isHorizontal);
+        const rows = Array.isArray(params) ? params : [params];
+        const total = showTotalValue 
+          ? rows.reduce((sum, row) => sum + (row.value?.[1] ?? 0), 0)
+          : null;
+        
+        const tooltipRows = rows.map(row => [
+          row.seriesName,
+          row.value?.[1],
+          total ? getPercentFormatter()(row.value?.[1] / total) : null,
+        ]);
 
-        const isForecast = Object.values(forecastValues).some(
-          value =>
-            value.forecastTrend || value.forecastLower || value.forecastUpper,
-        );
-
-        const formatter = forcePercentFormatter
-          ? percentFormatter
-          : getCustomFormatter(customFormatters, metrics) ?? defaultFormatter;
-
-        const rows: string[][] = [];
-        const total = Object.values(forecastValues).reduce(
-          (acc, value) =>
-            value.observation !== undefined ? acc + value.observation : acc,
-          0,
-        );
-        const showPercentage = Boolean(isMultiSeries) && richTooltip && !isForecast && !forcePercentFormatter;
-        const keys = Object.keys(forecastValues);
-        let focusedRow;
-        sortedKeys
-          .filter(key => keys.includes(key))
-          .forEach(key => {
-            const value = forecastValues[key];
-            if (value.observation === 0 && stack) {
-              return;
-            }
-            const row = formatForecastTooltipSeries({
-              ...value,
-              seriesName: key,
-              formatter,
-            });
-            if (showPercentage && value.observation !== undefined) {
-              row.push(
-                percentFormatter.format(value.observation / (total || 1)),
-              );
-            }
-            rows.push(row);
-            if (key === focusedSeries) {
-              focusedRow = rows.length - 1;
-            }
-          });
-        if (stack) {
-          rows.reverse();
-          if (focusedRow !== undefined) {
-            focusedRow = rows.length - focusedRow - 1;
-          }
+        if (showTotalValue && total) {
+          tooltipRows.push([t('Total'), total, '100%']);
         }
-        return tooltipHtml(rows, tooltipFormatter(xValue), focusedRow);
+
+        return tooltipHtml(
+          tooltipRows.filter(row => row[1] !== null),
+          tooltipFormatter(rows[0].value?.[0]),
+        );
       },
     },
     legend: {
