@@ -537,9 +537,8 @@ export default function transformProps(
       trigger: richTooltip ? 'axis' : 'item',
       formatter: (params: any) => {
         const rows = Array.isArray(params) ? params : [params];
-        const total = showTotalValue 
-          ? rows.reduce((sum, row) => sum + (row.value?.[1] ?? 0), 0)
-          : null;
+        // Calculate total regardless of showTotalValue setting
+        const total = rows.reduce((sum, row) => sum + (row.value?.[1] ?? 0), 0);
         
         const tooltipRows = rows.map(row => ({
           name: row.seriesName,
@@ -549,7 +548,7 @@ export default function transformProps(
         })).map(row => [
           row.marker + row.name,
           row.value,
-          row.percent,
+          row.percent, // This will now show percentage even when total is not displayed
         ]);
 
         if (showTotalValue && total) {
