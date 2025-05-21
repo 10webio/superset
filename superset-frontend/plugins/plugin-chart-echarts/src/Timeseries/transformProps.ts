@@ -536,29 +536,81 @@ export default function transformProps(
       show: !inContextMenu,
       trigger: richTooltip ? 'axis' : 'item',
       formatter: (params: any) => {
-        const rows = Array.isArray(params) ? params : [params];
-        // Calculate total regardless of showTotalValue setting
-        const total = rows.reduce((sum, row) => sum + (row.value?.[1] ?? 0), 0);
-        
-        const tooltipRows = rows.map(row => ({
-          name: row.seriesName,
-          value: row.value?.[1],
-          percent: total ? getPercentFormatter()(row.value?.[1] / total) : null,
-          marker: row.marker || `<span class="tooltip-marker" style="background-color:${row.color};"></span>`,
-        })).map(row => [
-          row.marker + row.name,
-          row.value,
-          row.percent, // This will now show percentage even when total is not displayed
-        ]);
+        const [xIndex, yIndex] = isHorizontal ? [1, 0] : [0, 1];
+        const xValue: number = richTooltip
+          ? params[0].value[xIndex]
+          : params.value[xIndex];
+        const forecastValue: any[] = richTooltip ? params : [params];
+        const sortedKeys = extractTooltipKeys(
+          forecastValue,
+          yIndex,
+          richTooltip,
+          tooltipSortByMetric,
+        );
 
-        if (showTotalValue && total) {
-          tooltipRows.push([t('Total'), total, '100%']);
+        const forecastValues: Record<string, ForecastValue> =
+          extractForecastValuesFromTooltipParams(forecastValue, isHorizontal);
+
+        const isForecast = Object.values(forecastValues).some(
+          value =>
+            value.forecastTrend || value.forecastLower || value.forecastUpper,
+        );
+
+        const formatter = forcePercentFormatter
+          ? percentFormatter
+          : getCustomFormatter(customFormatters, metrics) ?? defaultFormatter;
+
+        const rows: string[][] = [];
+        const total = Object.values(forecastValues).reduce(
+          (acc, value) =>
+            value.observation !== undefined ? acc + value.observation : acc,
+          0,
+        );
+
+        const showPercentage = !forcePercentFormatter;
+        const keys = Object.keys(forecastValues);
+        let focusedRow;
+
+        sortedKeys
+          .filter(key => keys.includes(key))
+          .forEach(key => {
+            const value = forecastValues[key];
+            if (value.observation === 0 && stack) {
+              return;
+            }
+            const row = formatForecastTooltipSeries({
+              ...value,
+              seriesName: key,
+              formatter,
+              marker: `<span class="tooltip-marker" style="background-color:${value.color};"></span>`,
+            });
+            if (showPercentage && value.observation !== undefined) {
+              row.push(
+                percentFormatter.format(value.observation / (total || 1)),
+              );
+            }
+            rows.push(row);
+            if (key === focusedSeries) {
+              focusedRow = rows.length - 1;
+            }
+          });
+
+        if (stack) {
+          rows.reverse();
+          if (focusedRow !== undefined) {
+            focusedRow = rows.length - focusedRow - 1;
+          }
         }
 
-        return tooltipHtml(
-          tooltipRows.filter(row => row[1] !== null),
-          tooltipFormatter(rows[0].value?.[0]),
-        );
+        if (showTotalValue) {
+          const totalRow = ['Total', formatter.format(total)];
+          if (showPercentage) {
+            totalRow.push(percentFormatter.format(1));
+          }
+          rows.push(totalRow);
+        }
+
+        return tooltipHtml(rows, tooltipFormatter(xValue), focusedRow);
       },
     },
     legend: {
