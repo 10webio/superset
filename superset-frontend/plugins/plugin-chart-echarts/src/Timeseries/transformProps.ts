@@ -578,11 +578,13 @@ export default function transformProps(
             if (value.observation === 0 && stack) {
               return;
             }
+            const seriesParams = forecastValue.find(p => p.seriesName === key);
+            
             const row = formatForecastTooltipSeries({
               ...value,
               seriesName: key,
               formatter,
-              marker: `<span class="tooltip-marker" style="background-color:${value.color};"></span>`,
+              marker: seriesParams?.marker || '',
             });
 
             if (showPercentage && value.observation !== undefined) {
