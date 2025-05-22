@@ -214,10 +214,10 @@ export const showTotalValue: ControlSetItem = {
   name: 'show_total_value',
   config: {
     type: 'CheckboxControl',
-    label: t('Show Total Value'),
+    label: t('Show Total and Percentages'),
     renderTrigger: true,
     default: false,
-    description: t('Whether to display the total value in tooltip'),
+    description: t('Whether to display the total value and percentages in tooltip'),
   },
 };
 
