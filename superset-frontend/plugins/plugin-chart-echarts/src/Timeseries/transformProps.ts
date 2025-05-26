@@ -547,7 +547,6 @@ export default function transformProps(
           richTooltip,
           tooltipSortByMetric,
         );
-
         const forecastValues: Record<string, ForecastValue> =
           extractForecastValuesFromTooltipParams(forecastValue, isHorizontal);
 
@@ -566,27 +565,22 @@ export default function transformProps(
             value.observation !== undefined ? acc + value.observation : acc,
           0,
         );
-
-        const showPercentage = !forcePercentFormatter && showTotalValue;
+        const showTotal = Boolean(isMultiSeries) && richTooltip && !isForecast && showTotalValue;
+        const showPercentage = showTotal && !forcePercentFormatter;
         const keys = Object.keys(forecastValues);
         let focusedRow;
-
         sortedKeys
           .filter(key => keys.includes(key))
           .forEach(key => {
             const value = forecastValues[key];
             if (value.observation === 0 && stack) {
               return;
-            }
-            const seriesParams = forecastValue.find(p => p.seriesName === key);
-            
+            }            
             const row = formatForecastTooltipSeries({
               ...value,
               seriesName: key,
               formatter,
-              marker: seriesParams?.marker || '',
             });
-
             if (showPercentage && value.observation !== undefined) {
               row.push(
                 percentFormatter.format(value.observation / (total || 1)),
@@ -604,15 +598,13 @@ export default function transformProps(
             focusedRow = rows.length - focusedRow - 1;
           }
         }
-
-        if (showTotalValue) {
+        if (showTotal) {
           const totalRow = ['Total', formatter.format(total)];
           if (showPercentage) {
             totalRow.push(percentFormatter.format(1));
           }
           rows.push(totalRow);
         }
-
         return tooltipHtml(rows, tooltipFormatter(xValue), focusedRow);
       },
     },
